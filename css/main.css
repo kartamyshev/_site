@@ -226,6 +226,7 @@ pre {
 
 .footer-col {
   float: left;
+  margin-bottom: 15px;
   padding-left: 15px; }
 
 .footer-col-1 {
@@ -318,6 +319,8 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+  .post-content hr {
+    margin-bottom: 13px; }
 
 /**
  * Syntax highlighting styles

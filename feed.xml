@@ -6,12 +6,295 @@
 </description>
     <link>http://kartamyshev.github.io/</link>
     <atom:link href="http://kartamyshev.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Dec 2014 03:21:53 +0300</pubDate>
-    <lastBuildDate>Fri, 19 Dec 2014 03:21:53 +0300</lastBuildDate>
+    <pubDate>Fri, 19 Dec 2014 12:44:48 +0300</pubDate>
+    <lastBuildDate>Fri, 19 Dec 2014 12:44:48 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
-        <title>Статья про &quot;IT-имиграцию в Минск&quot;</title>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 18 Dec 2014 21:39:08 +0300</pubDate>
+        <link>http://kartamyshev.github.io/jekyll/update/2014/12/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/18/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>LOL Javascript</title>
+        <description>&lt;p&gt;Here I’m gonna show you some js mad and weird examples. &lt;code&gt;_Enjoy :)&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;text&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;text inside&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;NaN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toFixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toFixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &amp;quot;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &amp;quot;[object Object]&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 0&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// NaN&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// object&lt;/span&gt;
+&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;mi&quot;&gt;9999999999999999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 10000000000000000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true (thanks God)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;wtf&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// runs?!&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;someId&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;someId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// --&amp;gt; someId&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;someId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// --&amp;gt; someId&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;someId&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
+
+
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;present&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;someId&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nx&quot;&gt;present&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;present&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false (??!) wtf&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;+!+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out these links here:&lt;br /&gt;
+&lt;a href=&quot;https://www.destroyallsoftware.com/talks/wat&quot;&gt;https://www.destroyallsoftware.com/talks/wat&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.phpied.com/files/location-location/location-location.html&quot;&gt;http://www.phpied.com/files/location-location/location-location.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://charlieharvey.org.uk/page/javascript_the_weird_parts&quot;&gt;http://charlieharvey.org.uk/page/javascript_the_weird_parts&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://wtfjs.com/&quot;&gt;http://wtfjs.com/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/&quot;&gt;http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And my goofy presentation:&lt;br /&gt;
+&lt;a href=&quot;http://kartamyshev.github.io/JS-humor&quot;&gt;http://kartamyshev.github.io/JS-humor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And…&lt;br /&gt;
+&lt;code&gt;Love js )&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Dec 2014 21:39:08 +0300</pubDate>
+        <link>http://kartamyshev.github.io/jekyll/update/2014/12/18/lol-js.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/18/lol-js.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Другая Земля</title>
+        <description>&lt;p&gt;Сегодня хотел бы поговорить о фильме
+“&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%97%D0%B5%D0%BC%D0%BB%D1%8F&quot;&gt;Другая Земля&lt;/a&gt;”
+и о мыслях, на которые он меня натолкнул. Первое, что приходит в голову при просмотре - 
+где-то я уже это видел.&lt;br /&gt;
+Меланхолия Ларса Триера. Да, именно так.&lt;br /&gt;
+Что интересно - оба сняты в 2011 году. Фильмы, конечно, о разном, хотя параллелей можно провести много.
+Рецензировать не буду. Это за меня сделает Википедия и Кинопоиск. &lt;/p&gt;
+
+&lt;p&gt;Интересно было подумать вот о чём:
+Если бы я, будучи разработчиком, сел в тюрьму и вышел через 4 года, 
+что бы мне пришлось пережить? И что бы я при этом чувствовал. Удалось бы снова включиться в гонку?&lt;/p&gt;
+
+&lt;p&gt;Мир javascript развивается очень стремительно, что совсем не странно. За предыдущих 4 года произошло столько всего, 
+что повлияло на то, как мы пишем и воспринимаем js сейчас, что становится понятно, что мерить нужно намного меньшими отрезками.
+Полугодичными, например. Вэб изменился до неузнаваемости. Родились и умерли не один тренд. И основной инструмент
+не мог оставаться в привычном виде. JS перестал быть игрушечным и детским. Хотя ему очень нравилось таким быть.
+Подтверждением тому - то, каким он сейчас стал (и продолжает становиться) и, что самое важное, под влиянием чего
+и кого он приобретает сегодняшний вид. JS под очень сильным давлением. Готов импульсивно с открытым ртом выслушивать
+любые предложения и унижения. Это признак не совсем взрослого поведения. Мне кажется, есть риск потерять раз и навсегда
+свою детскую непосредственность и стать циничным. Цинизм же в свою очередь требует мудрости. Просто так циничным стать 
+можно только по глупости.&lt;/p&gt;
+
+&lt;p&gt;То, что мы видим в 6-ой версии - очень неоднозначно.
+&lt;a href=&quot;https://www.youtube.com/watch?v=PSGEjv3Tqo0&amp;amp;list=UUTZ3O2cZo1b4JSwvhgBnAbw&quot;&gt;Прекрасное выступление Крокфорда&lt;/a&gt; на Nordic.js
+тому подтверждение.&lt;/p&gt;
+
+&lt;p&gt;Если отбросить психологические факторы, просто представить себе 4 года вне вэб, без возможности как-то с ним 
+взаимодействовать, картина получается… Или не получается… Или…&lt;br /&gt;
+Я сам не знаю, что получается. Я думаю, для любого разработчика - стресс долго не работать. Это как для спортсмена 
+отсутствие аммуниции.&lt;br /&gt;
+Наверное, я бы тоже пошёл работать уборщиком. Фреймворки уборщицы со временем меняются гораздо реже. Вопрос только в том, что
+сами уборщицы могут скоро перестать быть нужны. Ну, это больше вопрос философский и не самого ближайшего будущего. Так что
+можно какое-то время абсолютно беззаботно работать. По вечерам готовить ужин для детей и не сидеть упоротым возле
+компьютера.&lt;/p&gt;
+
+&lt;p&gt;Работа разработчика неплохо оплачивается по нескольким причинам. Первая и самая важная из них - умение быстро
+разбираться в любой незнакомой технологии. Этот скилл куда важнее текущих знаний и того, за что тебе платят сегодня. 
+Можно ли утратить всё, что знал и что накапливал, за 4 года? Думаю, нет, но утратить интерес - вполне. Просто перестать хотеть.&lt;/p&gt;
+
+&lt;p&gt;Второй вопрос - каждому ли разработсику нравится всегда находиться на чеку? Среди нас есть новаторы и психи, консерваторы
+и ретрограды, но большинство, как и везде просто серая масса. Умная серая масса.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 Dec 2014 21:39:00 +0300</pubDate>
+        <link>http://kartamyshev.github.io/jekyll/update/2014/12/18/%D0%B4%D1%80%D1%83%D0%B3%D0%B0%D1%8F-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/18/%D0%B4%D1%80%D1%83%D0%B3%D0%B0%D1%8F-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Холиварная хабрастатья про agile-методологии</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://habrahabr.ru/post/243675/&quot;&gt;Оригинал&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Тема, о которой буду говорить, крайне неоднозначная. Предвижу нехилый холивар по этому поводу, если, конечно, статья 
+заинтересует кого-то. Прежде, чем перейти непосредственно к чтению, взгляните ещё раз на заголовок и на его последнее 
+слово. И не нужно говорить, что я не прав. Я и сам знаю, что многие со мной не согласятся. Да и цели у меня такой нет. Итак…&lt;/p&gt;
+
+&lt;p&gt;За мою короткую карьеру, если её можно так назвать, разработчика, удалось поработать в разных 
+(дело не только в названиях) организациях. Все мы время от времени меняем работу, кто-то чаще, кто-то реже. 
+Естественно, мы сравниваем их между собой по каким-то критериям, выставляем субъективные или не очень оценки. 
+Для себя. Для своего будущего. Делаем выводы. Расстраиваемся или радуемся. 
+Через несколько месяцев после смены работы опять начинаем сравнивать своё текущее место с предыдущим. 
+Порой в голову проникают мысли, мол, зря это было. На старой работе было всё-таки здорово, хоть и платили меньше. 
+Зато уже всех знал, мог выйти в центр офиса и сказать что-то вроде “да пошло оно всё, к черту дедлайны, имел я вашу работу”. 
+Пойти перекурить тире попить чай, снова сесть за компьютер, нехило так поовертаймить и успешно закончить свой кусок.&lt;/p&gt;
+
+&lt;p&gt;Все мы знаем, что часто задачи ставятся примерно &lt;a href=&quot;https://www.youtube.com/watch?v=ezLQxKood8A&quot;&gt;так&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;//www.youtube.com/embed/ezLQxKood8A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Я очень рад, что увидел этот баян-бабаян совсем недавно. Это значит, что именно я столкнулся со столь академическим 
+идиотизмом достаточно поздно в своей жизни и всецело благодарен ей за это. Именно это и побудило меня написать статью. 
+Мы можем посмеяться над роликом, поговорить три минуты, как это жизненно и весело и, если бы не такие моменты, наша 
+работа была бы скучной и унылой, пройти мимо и вообще сказать, что не бывает ничего идеального, все ошибаются, 
+заказчики не обязаны разбираться в тонкостях нашей работы и так далее.&lt;/p&gt;
+
+&lt;p&gt;Об agile я узнал чуть более года назад. До этого работа также строилась на подобных методах, однако я не знал, 
+как это называется. Да и не нужно было. Были таски, нестрогие эстимейты, дедлайны, Redmine и SVN. 
+На другом месте работы были скрам, спринты, пленнинги (или их интерпретация руководителями), использовались 
+JIRA и BitBucket, что в общем-то то же самое, только лучше. Об инструментариях много говорить не буду, так как 
+это субъективно, их большое количество, как платных, так и бесплатных, да и важно это только во вторую очередь. 
+Никакой, даже самый лучший инструмент, не поможет, если организация труда на низком уровне.&lt;/p&gt;
+
+&lt;p&gt;Плохой организацией труда я называю перекидывание людей с проекта на проект в хаотичном порядке, когда самое главное — 
+это количество заведенных и выполненных задач, когда аврал — это повседневный процесс разработки, когда редмайн от 
+тасков со статусом urgent и immediate уже не знает, куда дальше краснеть (разработчикам редмайна стоит задуматься над 
+добавлением в коробку статуса с миганием и сопровождением звуковым сигналом, как у скорой помощи, и обязательно апперкейсом), 
+это выставление эстимейтов без участия разработчиков. Такое часто бывает на аутсорсе, когда вы или ваш руководитель 
+непосредственно общаетесь с англоязычными коллегами, которые находятся в других часовых поясах. Выполнение этих задач 
+становится вашей целью. Со временем вы начинаете верить в то, что эффективность измеряется количеством тикетов, 
+сделанных вчера, проэстимейченых сегодня и запланированных на завтра. Это становится нормой. Это меняет человека. 
+Меняется даже взгляд. Человек превращается в упоротого оленя. Серьёзно, я не шучу. Хорошая проверка коллектива на 
+упоротость — неформальная обстановка. Корпоратив или какой-то праздник.&lt;/p&gt;
+
+&lt;p&gt;Хочу, чтобы читатель понимал, что я виню не методологии, а неправильное их использование с точки зрения исполнителя. 
+Представляя себя на месте руководителя, думается, что меня бы вряд ли интересовало, как будет решена задача, ведь главное — 
+конечный результат. Как вы это сделаете, ну давайте будем честными, — чаще всего, не важно.&lt;br /&gt;
+Не знаю, как вам, но мне, чтобы хорошо выполнять свою работу, нужна концентрация внимания. Если человек участвует в 
+двух или более проектах, по каждому из которых каждый день проходит митинг, если нужно постоянно переключаться с одной 
+задачи на другие, — вряд ли можно надолго сконцентрироваться и хорошо выполнить работу. Однако я понимаю, что будущее, 
+как и настоящее, не без этого. И, видимо, придётся привыкать, так как это может стать одним из ключевых навыков.&lt;/p&gt;
+
+&lt;p&gt;Для меня хороший вариант — стендап минут на 5-20, в котором мы вкратце узнаём о том, кто чем занимается и, в случае 
+необходимости, после его окончания, общаемся уже в процессе работы между собой. Хороший вариант — это пленнинг раз в 
+неделю или две (иногда — месяц) с обязательным присутствием всех, кто будет участвовать в последующем спринте. 
+Всё это избавляет от необходимости каждый день по полтора часа (не дай Бог, по скайпу) заниматься болтовнёй. Ну 
+не нужно всем каждый день в деталях знать, чем занимаются все остальные! Нужен тебе дизайнер — подошёл к нему, узнал 
+необходимую информацию, — пошёл дальше работать.&lt;/p&gt;
+
+&lt;p&gt;Любая крайность — это плохо. У меня был опыт каждодневного полуторачасового общения по скайпу. Это крайность. 
+Не использовать инструменты, которые в хороших руках ускоряют рабочие процессы — крайность. Каждая команда должна 
+для себя найти ту золотую середину, в которой им будет комфортно работать, а не подгонять всех подряд под определённые 
+стандарты. Тем более, их нет. Возможно, выработать свои методики, основанные на популярных, действенных практиках. 
+И это не просто. На поиски и пробы могут уйти драгоценное время и деньги инвесторов. Но нельзя просто так взять и 
+выставить заявку на 250 тыс коней начать использовать agile.&lt;/p&gt;
+
+&lt;p&gt;Agile !== «бегать с выпученными глазами и пытаться всё успеть, чего бы это ни стоило», хотя спринт зачастую подразумевает 
+именно это. Для меня agile — это как раз набор методологий, которые должны помогать всем — от руководителя до офисного менеджера.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Почему agile помогает мне работать?&lt;/strong&gt;&lt;br /&gt;
+Тут всё просто. Без организации работы всё будет плохо. Разработчик относится более ответственно к своей работе, 
+организует себя, привыкает к определённому режиму. Руководитель может следить за процессом, выявлять слабые стороны. 
+О научном и практическом обосновании говорить здесь неуместно — отдельная тема для разговора.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Почему agile мешает мне работать?&lt;/strong&gt;&lt;br /&gt;
+При неправильном понимании его использование приводит к таким бедам, как плохой микроклимат внутри коллектива, 
+просроченные дедлайны, увольнения, общая неудовлетворённость процессом и результатом разработки.&lt;/p&gt;
+
+&lt;p&gt;Среди нас найдётся много людей (себя бы тоже причислил к их числу), которые неправильно трактуют некоторые понятия, 
+связанные с современными подходами к управлению разработкой. Хотелось бы, чтобы руководители понимали их как можно лучше, 
+слушали не только себя и, что самое главное, — старались как можно гибче применять в каждом конкретном случае. 
+Ведь не всегда процесс разработки — конвейер.&lt;/p&gt;
+
+&lt;p&gt;В заключение — несколько ассоциативных ссылок (имеют лишь касательное отношение к теме):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Статья &lt;a href=&quot;https://www.linkedin.com/pulse/article/20141113211429-10486099-stop-trying-to-incentivize-your-employees-to-be-more-like-you&quot;&gt;Stop Trying to Incentivize Your Employees to Be More Like You&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Фильм &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%9E%D1%84%D0%B8%D1%81%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE&quot;&gt;“Офисное пространство”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Марина Миронович: &lt;a href=&quot;https://www.youtube.com/watch?v=jyUr2Wrw-y0&quot;&gt;Как жить дальше, если вы все-таки решили написать свой MVC-фреймворк&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Перевод &lt;a href=&quot;http://experience.openquality.ru/agile-ruined-my-life/&quot;&gt;хорошей статьи&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Nov 2014 20:02:00 +0300</pubDate>
+        <link>http://kartamyshev.github.io/jekyll/update/2014/11/19/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D1%85%D0%B0%D0%B1%D1%80.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/11/19/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D1%85%D0%B0%D0%B1%D1%80.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Про IT-иммиграцию в Минск</title>
         <description>&lt;p&gt;&lt;a href=&quot;http://geektimes.ru/post/240262/&quot;&gt;Оригинал&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;После прочтения &lt;a href=&quot;http://habrahabr.ru/post/230527/&quot;&gt;статьи&lt;/a&gt; про эммиграцию в Минск в голову начала закрадываться мысль о переезде, тем более, что были 
@@ -151,262 +434,9 @@ One republic, Morcheeba, Blue Foundation. Если приедут Incubus или
 И цены, и уровень жизни и многое другое. Как мне кажется, жить на среднюю зарплату в 400 долларов — малоприятно. 
 Но многие живут. Так же как и в Украине. И цифры могут быть меньше, иногда очень даже меньше.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 19 Dec 2014 03:00:15 +0300</pubDate>
-        <link>http://kartamyshev.github.io/jekyll/update/2014/12/19/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D0%B3%D0%B8%D0%BA%D1%82%D0%B0%D0%B8%CC%86%D0%BC%D1%81.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/19/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D0%B3%D0%B8%D0%BA%D1%82%D0%B0%D0%B8%CC%86%D0%BC%D1%81.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Холиварная хабрастатья про agile-методологии</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://habrahabr.ru/post/243675/&quot;&gt;Оригинал&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Тема, о которой буду говорить, крайне неоднозначная. Предвижу нехилый холивар по этому поводу, если, конечно, статья 
-заинтересует кого-то. Прежде, чем перейти непосредственно к чтению, взгляните ещё раз на заголовок и на его последнее 
-слово. И не нужно говорить, что я не прав. Я и сам знаю, что многие со мной не согласятся. Да и цели у меня такой нет. Итак…&lt;/p&gt;
-
-&lt;p&gt;За мою короткую карьеру, если её можно так назвать, разработчика, удалось поработать в разных 
-(дело не только в названиях) организациях. Все мы время от времени меняем работу, кто-то чаще, кто-то реже. 
-Естественно, мы сравниваем их между собой по каким-то критериям, выставляем субъективные или не очень оценки. 
-Для себя. Для своего будущего. Делаем выводы. Расстраиваемся или радуемся. 
-Через несколько месяцев после смены работы опять начинаем сравнивать своё текущее место с предыдущим. 
-Порой в голову проникают мысли, мол, зря это было. На старой работе было всё-таки здорово, хоть и платили меньше. 
-Зато уже всех знал, мог выйти в центр офиса и сказать что-то вроде “да пошло оно всё, к черту дедлайны, имел я вашу работу”. 
-Пойти перекурить тире попить чай, снова сесть за компьютер, нехило так поовертаймить и успешно закончить свой кусок.&lt;/p&gt;
-
-&lt;p&gt;Все мы знаем, что часто задачи ставятся примерно &lt;a href=&quot;https://www.youtube.com/watch?v=ezLQxKood8A&quot;&gt;так&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;//www.youtube.com/embed/ezLQxKood8A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Я очень рад, что увидел этот баян-бабаян совсем недавно. Это значит, что именно я столкнулся со столь академическим 
-идиотизмом достаточно поздно в своей жизни и всецело благодарен ей за это. Именно это и побудило меня написать статью. 
-Мы можем посмеяться над роликом, поговорить три минуты, как это жизненно и весело и, если бы не такие моменты, наша 
-работа была бы скучной и унылой, пройти мимо и вообще сказать, что не бывает ничего идеального, все ошибаются, 
-заказчики не обязаны разбираться в тонкостях нашей работы и так далее.&lt;/p&gt;
-
-&lt;p&gt;Об agile я узнал чуть более года назад. До этого работа также строилась на подобных методах, однако я не знал, 
-как это называется. Да и не нужно было. Были таски, нестрогие эстимейты, дедлайны, Redmine и SVN. 
-На другом месте работы были скрам, спринты, пленнинги (или их интерпретация руководителями), использовались 
-JIRA и BitBucket, что в общем-то то же самое, только лучше. Об инструментариях много говорить не буду, так как 
-это субъективно, их большое количество, как платных, так и бесплатных, да и важно это только во вторую очередь. 
-Никакой, даже самый лучший инструмент, не поможет, если организация труда на низком уровне.&lt;/p&gt;
-
-&lt;p&gt;Плохой организацией труда я называю перекидывание людей с проекта на проект в хаотичном порядке, когда самое главное — 
-это количество заведенных и выполненных задач, когда аврал — это повседневный процесс разработки, когда редмайн от 
-тасков со статусом urgent и immediate уже не знает, куда дальше краснеть (разработчикам редмайна стоит задуматься над 
-добавлением в коробку статуса с миганием и сопровождением звуковым сигналом, как у скорой помощи, и обязательно апперкейсом), 
-это выставление эстимейтов без участия разработчиков. Такое часто бывает на аутсорсе, когда вы или ваш руководитель 
-непосредственно общаетесь с англоязычными коллегами, которые находятся в других часовых поясах. Выполнение этих задач 
-становится вашей целью. Со временем вы начинаете верить в то, что эффективность измеряется количеством тикетов, 
-сделанных вчера, проэстимейченых сегодня и запланированных на завтра. Это становится нормой. Это меняет человека. 
-Меняется даже взгляд. Человек превращается в упоротого оленя. Серьёзно, я не шучу. Хорошая проверка коллектива на 
-упоротость — неформальная обстановка. Корпоратив или какой-то праздник.&lt;/p&gt;
-
-&lt;p&gt;Хочу, чтобы читатель понимал, что я виню не методологии, а неправильное их использование с точки зрения исполнителя. 
-Представляя себя на месте руководителя, думается, что меня бы вряд ли интересовало, как будет решена задача, ведь главное — 
-конечный результат. Как вы это сделаете, ну давайте будем честными, — чаще всего, не важно.&lt;br /&gt;
-Не знаю, как вам, но мне, чтобы хорошо выполнять свою работу, нужна концентрация внимания. Если человек участвует в 
-двух или более проектах, по каждому из которых каждый день проходит митинг, если нужно постоянно переключаться с одной 
-задачи на другие, — вряд ли можно надолго сконцентрироваться и хорошо выполнить работу. Однако я понимаю, что будущее, 
-как и настоящее, не без этого. И, видимо, придётся привыкать, так как это может стать одним из ключевых навыков.&lt;/p&gt;
-
-&lt;p&gt;Для меня хороший вариант — стендап минут на 5-20, в котором мы вкратце узнаём о том, кто чем занимается и, в случае 
-необходимости, после его окончания, общаемся уже в процессе работы между собой. Хороший вариант — это пленнинг раз в 
-неделю или две (иногда — месяц) с обязательным присутствием всех, кто будет участвовать в последующем спринте. 
-Всё это избавляет от необходимости каждый день по полтора часа (не дай Бог, по скайпу) заниматься болтовнёй. Ну 
-не нужно всем каждый день в деталях знать, чем занимаются все остальные! Нужен тебе дизайнер — подошёл к нему, узнал 
-необходимую информацию, — пошёл дальше работать.&lt;/p&gt;
-
-&lt;p&gt;Любая крайность — это плохо. У меня был опыт каждодневного полуторачасового общения по скайпу. Это крайность. 
-Не использовать инструменты, которые в хороших руках ускоряют рабочие процессы — крайность. Каждая команда должна 
-для себя найти ту золотую середину, в которой им будет комфортно работать, а не подгонять всех подряд под определённые 
-стандарты. Тем более, их нет. Возможно, выработать свои методики, основанные на популярных, действенных практиках. 
-И это не просто. На поиски и пробы могут уйти драгоценное время и деньги инвесторов. Но нельзя просто так взять и 
-выставить заявку на 250 тыс коней начать использовать agile.&lt;/p&gt;
-
-&lt;p&gt;Agile !== «бегать с выпученными глазами и пытаться всё успеть, чего бы это ни стоило», хотя спринт зачастую подразумевает 
-именно это. Для меня agile — это как раз набор методологий, которые должны помогать всем — от руководителя до офисного менеджера.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Почему agile помогает мне работать?&lt;/strong&gt;&lt;br /&gt;
-Тут всё просто. Без организации работы всё будет плохо. Разработчик относится более ответственно к своей работе, 
-организует себя, привыкает к определённому режиму. Руководитель может следить за процессом, выявлять слабые стороны. 
-О научном и практическом обосновании говорить здесь неуместно — отдельная тема для разговора.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Почему agile мешает мне работать?&lt;/strong&gt;&lt;br /&gt;
-При неправильном понимании его использование приводит к таким бедам, как плохой микроклимат внутри коллектива, 
-просроченные дедлайны, увольнения, общая неудовлетворённость процессом и результатом разработки.&lt;/p&gt;
-
-&lt;p&gt;Среди нас найдётся много людей (себя бы тоже причислил к их числу), которые неправильно трактуют некоторые понятия, 
-связанные с современными подходами к управлению разработкой. Хотелось бы, чтобы руководители понимали их как можно лучше, 
-слушали не только себя и, что самое главное, — старались как можно гибче применять в каждом конкретном случае. 
-Ведь не всегда процесс разработки — конвейер.&lt;/p&gt;
-
-&lt;p&gt;В заключение — несколько ассоциативных ссылок (имеют лишь касательное отношение к теме):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Статья &lt;a href=&quot;https://www.linkedin.com/pulse/article/20141113211429-10486099-stop-trying-to-incentivize-your-employees-to-be-more-like-you&quot;&gt;Stop Trying to Incentivize Your Employees to Be More Like You&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Фильм &lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%9E%D1%84%D0%B8%D1%81%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE&quot;&gt;“Офисное пространство”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Марина Миронович: &lt;a href=&quot;https://www.youtube.com/watch?v=jyUr2Wrw-y0&quot;&gt;Как жить дальше, если вы все-таки решили написать свой MVC-фреймворк&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Перевод &lt;a href=&quot;http://experience.openquality.ru/agile-ruined-my-life/&quot;&gt;хорошей статьи&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 19 Dec 2014 03:00:02 +0300</pubDate>
-        <link>http://kartamyshev.github.io/jekyll/update/2014/12/19/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D1%85%D0%B0%D0%B1%D1%80.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/19/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D1%85%D0%B0%D0%B1%D1%80.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 18 Dec 2014 21:39:08 +0300</pubDate>
-        <link>http://kartamyshev.github.io/jekyll/update/2014/12/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/18/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>LOL Javascript</title>
-        <description>&lt;p&gt;Here I’m gonna show you some js mad and weird examples. &lt;code&gt;_Enjoy :)&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;text&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;text inside&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;NaN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toFixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;0.1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toFixed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &amp;quot;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// &amp;quot;[object Object]&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 0&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// NaN&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;k&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// object&lt;/span&gt;
-&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;mi&quot;&gt;9999999999999999&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 10000000000000000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true (thanks God)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;localStorage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;wtf&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// runs?!&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;someId&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/div&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;someId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// --&amp;gt; someId&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;someId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// --&amp;gt; someId&lt;/span&gt;
-
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;someId&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
-
-
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;present&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;someId&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;present&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;present&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// false (??!) wtf&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;+!+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out these links here:&lt;br /&gt;
-&lt;a href=&quot;https://www.destroyallsoftware.com/talks/wat&quot;&gt;https://www.destroyallsoftware.com/talks/wat&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.phpied.com/files/location-location/location-location.html&quot;&gt;http://www.phpied.com/files/location-location/location-location.html&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://charlieharvey.org.uk/page/javascript_the_weird_parts&quot;&gt;http://charlieharvey.org.uk/page/javascript_the_weird_parts&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://wtfjs.com/&quot;&gt;http://wtfjs.com/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/&quot;&gt;http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And my goofy presentation:&lt;br /&gt;
-&lt;a href=&quot;http://kartamyshev.github.io/JS-humor&quot;&gt;http://kartamyshev.github.io/JS-humor&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And…&lt;br /&gt;
-&lt;code&gt;Love js )&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Dec 2014 21:39:08 +0300</pubDate>
-        <link>http://kartamyshev.github.io/jekyll/update/2014/12/18/lol-js.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/18/lol-js.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Другая Земля</title>
-        <description>&lt;p&gt;Сегодня хотел бы поговорить о фильме
-“&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%94%D1%80%D1%83%D0%B3%D0%B0%D1%8F_%D0%97%D0%B5%D0%BC%D0%BB%D1%8F&quot;&gt;Другая Земля&lt;/a&gt;”
-и о мыслях, на которые он меня натолкнул. Первое, что приходит в голову при просмотре - 
-где-то я уже это видел.&lt;br /&gt;
-Меланхолия. Фильм Ларса Триера. Да, именно так.&lt;br /&gt;
-Что интересно - оба сняты в 2011 году. Фильмы, конечно, о разном, хотя параллелей можно провести много.
-Рецензировать не буду. Это за меня сделает википедия и кинопоиск. &lt;/p&gt;
-
-&lt;p&gt;Интересно было подумать вот о чём:
-Если бы я, будучи разработчиком, сел в тюрьму и вышел через 4 года, 
-что бы мне пришлось пережить? И что бы я при этом чувствовал.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Dec 2014 21:39:00 +0300</pubDate>
-        <link>http://kartamyshev.github.io/jekyll/update/2014/12/18/%D0%B4%D1%80%D1%83%D0%B3%D0%B0%D1%8F-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/12/18/%D0%B4%D1%80%D1%83%D0%B3%D0%B0%D1%8F-%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F.html</guid>
+        <pubDate>Wed, 15 Oct 2014 13:02:00 +0300</pubDate>
+        <link>http://kartamyshev.github.io/jekyll/update/2014/10/15/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D0%B3%D0%B8%D0%BA%D1%82%D0%B0%D0%B8%CC%86%D0%BC%D1%81.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/jekyll/update/2014/10/15/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%8F-%D0%BD%D0%B0-%D0%B3%D0%B8%D0%BA%D1%82%D0%B0%D0%B8%CC%86%D0%BC%D1%81.html</guid>
         
         
         <category>jekyll</category>

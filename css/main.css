@@ -255,7 +255,10 @@ pre {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); }
     .footer-col-3 .text {
-      text-align: left; } }
+      text-align: left; }
+
+  .history-minus-1 {
+    display: none; } }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
@@ -325,6 +328,23 @@ pre {
     margin-bottom: 13px; }
   .post-content iframe {
     margin-bottom: 15px; }
+
+.history-minus-1 {
+  position: fixed;
+  top: 61px;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  background: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  opacity: 0;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear; }
+  .history-minus-1:hover {
+    opacity: 1; }
 
 /**
  * Syntax highlighting styles

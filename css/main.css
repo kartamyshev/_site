@@ -72,7 +72,6 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
     text-decoration: underline; }
 
 /**
@@ -321,6 +320,8 @@ pre {
         font-size: 18px; } }
   .post-content hr {
     margin-bottom: 13px; }
+  .post-content iframe {
+    margin-bottom: 15px; }
 
 /**
  * Syntax highlighting styles

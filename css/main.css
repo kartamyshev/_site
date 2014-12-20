@@ -64,11 +64,13 @@ blockquote {
   blockquote > :last-child {
     margin-bottom: 0; }
 
+code {
+  border-radius: 3px; }
+
 pre,
 code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
-  border-radius: 3px;
   background-color: #eef; }
 
 code {
@@ -109,7 +111,8 @@ pre {
   position: fixed;
   background: rgba(253, 253, 253, 0.95);
   left: 0;
-  right: 0; }
+  right: 0;
+  z-index: 1; }
 
 .site-title {
   font-size: 26px;
@@ -298,7 +301,28 @@ pre {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
 .highlight {
-  background: #fff; }
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 0 60px 0 0 / 5px 5px 0 0;
+  background-image: linear-gradient(102deg, transparent, transparent 20px), linear-gradient(-102deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05) 10px, transparent 20px);
+  background-color: #fff; }
+  .highlight:before {
+    content: '';
+    position: absolute;
+    top: 19px;
+    z-index: -1;
+    width: 16px;
+    height: 20px;
+    right: 10px;
+    box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.3);
+    -webkit-transform: rotate(-5deg) skew(-21deg);
+    transform: rotate(-5deg) skew(-21deg); }
+  .highlight code {
+    background: #ffffff; }
+  .highlight pre {
+    background: none;
+    border: 0;
+    margin-bottom: 0; }
   .highlight .c {
     color: #998;
     font-style: italic; }

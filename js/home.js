@@ -23,7 +23,8 @@ var App = (function($, window, document, undefined) {
         }
     };
 
-    _.$('.history-minus-1').addEventListener('click', _local.goBack, false);
+    _.$('.history-back').addEventListener('click', _local.goBack, false);
+
 
 
     return {
@@ -37,4 +38,6 @@ var App = (function($, window, document, undefined) {
 
         }
     };
+
+
 })(_.$$, this, this.document);

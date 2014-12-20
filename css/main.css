@@ -186,9 +186,6 @@ pre {
   display: block;
   font-size: 24px; }
 
-/**
- * Posts
- */
 .post-header {
   margin-bottom: 30px; }
 
@@ -227,7 +224,7 @@ pre {
       .post-content iframe {
         height: 280px; } }
 
-.history-minus-1 {
+.history-back {
   position: fixed;
   top: 61px;
   bottom: 0;
@@ -241,7 +238,7 @@ pre {
   font-size: 20px;
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear; }
-  .history-minus-1:hover {
+  .history-back:hover {
     opacity: 1; }
 
 .site-footer {

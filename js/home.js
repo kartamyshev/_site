@@ -17,11 +17,13 @@ var App = (function($, window, document, undefined) {
         App.go();
     });
 
-    function goBack() {
-        window.history.back();
-    }
+    var _local = {
+        goBack: function () {
+            window.history.back();
+        }
+    };
 
-    _.$('.history-minus-1').addEventListener('click', goBack, false);
+    _.$('.history-minus-1').addEventListener('click', _local.goBack, false);
 
 
     return {

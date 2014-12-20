@@ -279,11 +279,9 @@ pre {
   .post-list h2 {
     margin-bottom: 0; }
   .post-list > li {
-    padding: 15px 10px; }
-    .post-list > li:nth-child(odd) {
-      background: #e8e8e8; }
-    .post-list > li:nth-child(even) {
-      background: #f4f4f4; }
+    padding: 15px 10px;
+    border: solid #e8e8e8;
+    border-width: 0 0 1px; }
 
 .post-meta {
   font-size: 14px;

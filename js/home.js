@@ -13,6 +13,9 @@ var _ = {
 
 var App = (function($, window, document, undefined) {
 
+    // _.$    ->    only first selector matches
+    // $      ->    selects nodeList of matches selector (  like _.$$  )
+
     window.document.addEventListener('DOMContentLoaded', function() {
         App.go();
     });

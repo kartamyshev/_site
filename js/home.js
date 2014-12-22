@@ -11,10 +11,7 @@ var _ = {
 };
 
 
-var App = (function($, window, document, undefined) {
-
-    // _.$    ->    only first selector matches
-    // $      ->    selects nodeList of matches selector (  like _.$$  )
+var App = (function(window, document, undefined) {
 
     window.document.addEventListener('DOMContentLoaded', function() {
         App.go();
@@ -43,4 +40,4 @@ var App = (function($, window, document, undefined) {
     };
 
 
-})(_.$$, this, this.document);
+})(this, this.document);

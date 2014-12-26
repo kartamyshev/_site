@@ -6,9 +6,45 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Dec 2014 20:07:46 +0300</pubDate>
-    <lastBuildDate>Wed, 24 Dec 2014 20:07:46 +0300</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2014 13:35:01 +0300</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2014 13:35:01 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Пост имени тернарного оператора</title>
+        <description>&lt;p&gt;Случилось однажды, что нужно было присваивать переменной
+ноль или единицу. Причём, при каждой загрузке страницы, эта переменная 
+должна быть псевдорандомная. Причём, сделать это нужно было очень срочно.
+Причём, написать нужно было решение с минимальным количеством символов. 
+От этого зависела жизнь и дальнейшая судьба меня как разработчика.&lt;/p&gt;
+
+&lt;p&gt;Мой единственный вариант &lt;code&gt;Math.round(Math.random())&lt;/code&gt; насчитывает &lt;strong&gt;25&lt;/strong&gt; символов.
+А вот &lt;a href=&quot;http://ymatuhin.github.io/#!/blog/get_random_0_or_1/&quot;&gt;этот вот&lt;/a&gt; человек предложил
+вариант из &lt;strong&gt;20&lt;/strong&gt; и вариант из &lt;strong&gt;18&lt;/strong&gt; символов. &lt;/p&gt;
+
+&lt;p&gt;Итого, получается, что Юра лучше меня на &lt;strong&gt;38&lt;/strong&gt; процентов &lt;strong&gt;(25 / 18)&lt;/strong&gt;, 
+а я - это &lt;strong&gt;0.72 (18 / 25)&lt;/strong&gt; Юры.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Сегодня же Юра прислал мне в скайп вот такой текст: &lt;br /&gt;
+“Вот тебе, мол, задачка. Как переписать условное выражение еще короче
+&lt;code&gt;z = x ? 1 : 0;&lt;/code&gt;”?&lt;/p&gt;
+
+&lt;p&gt;Это был вызов всей моей карьере.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;z = +!!x;&lt;/code&gt;, ответил я. И был прав.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Dec 2014 16:10:00 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/26-ternary-operator.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/26-ternary-operator.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Brussels, Brugge, Ghent, Ostende</title>
@@ -292,7 +328,7 @@ JIRA и BitBucket, что в общем-то то же самое, только 
 для себя найти ту золотую середину, в которой им будет комфортно работать, а не подгонять всех подряд под определённые 
 стандарты. Тем более, их нет. Возможно, выработать свои методики, основанные на популярных, действенных практиках. 
 И это не просто. На поиски и пробы могут уйти драгоценное время и деньги инвесторов. Но нельзя просто так взять и 
-выставить заявку на 250 тыс коней начать использовать agile.&lt;/p&gt;
+&lt;span class=&quot;line-through&quot;&gt;выставить заявку на 250 тыс коней&lt;/span&gt; начать использовать agile.&lt;/p&gt;
 
 &lt;p&gt;Agile !== «бегать с выпученными глазами и пытаться всё успеть, чего бы это ни стоило», хотя спринт зачастую подразумевает 
 именно это. Для меня agile — это как раз набор методологий, которые должны помогать всем — от руководителя до офисного менеджера.&lt;/p&gt;

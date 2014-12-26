@@ -226,6 +226,8 @@ pre {
     @media screen and (max-width: 600px) {
       .post-content iframe {
         height: 280px; } }
+  .post-content .line-through {
+    text-decoration: line-through; }
 
 .history-back {
   position: fixed;

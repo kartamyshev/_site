@@ -6,8 +6,8 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Dec 2014 13:35:01 +0300</pubDate>
-    <lastBuildDate>Fri, 26 Dec 2014 13:35:01 +0300</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2014 13:37:07 +0300</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2014 13:37:07 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -36,8 +36,8 @@
 &lt;p&gt;&lt;code&gt;z = +!!x;&lt;/code&gt;, ответил я. И был прав.&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 Dec 2014 16:10:00 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/26-ternary-operator.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/26-ternary-operator.html</guid>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</guid>
         
         
         <category>jekyll</category>

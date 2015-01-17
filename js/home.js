@@ -26,6 +26,7 @@ var App = (function(window, document, undefined) {
     _.$('.history-back').addEventListener('click', _local.goBack, false);
 
 
+    
 
     return {
         go: function() {

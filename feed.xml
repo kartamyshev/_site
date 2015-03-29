@@ -6,12 +6,12 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2015 09:55:30 +0300</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2015 09:55:30 +0300</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2015 13:07:44 +0300</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2015 13:07:44 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
-        <title>Useful quotes from &quot;Speaking Javascript&quot; book </title>
+        <title>Useful quotations from &quot;Speaking Javascript&quot; book </title>
         <description>&lt;h3 id=&quot;the-history-of-typeof-null&quot;&gt;The history of typeof null&lt;/h3&gt;
 
 &lt;blockquote&gt;
@@ -26,10 +26,21 @@ machine language NULL pointer, a word where all bits are zero. typeof checked th
 type tag to determine the type of value, which is why it reported null to be an object.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;h3 id=&quot;history-why-are-objects-always-truthy&quot;&gt;History: Why are objects always truthy?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The conversion to boolean is different for historic reasons. For ECMAScript 1,
+it was decided to not enable objects to configure that conversion (e.g., via a toBoolean() method).
+The rationale was that the boolean operators || and &amp;amp;&amp;amp; preserve the values of their operands.
+Therefore, if you chain those operators, the same value may be checked multiple times for
+truthiness or falsiness. Such checks are cheap for primitives, but would be costly for
+objects if they were able to configure their conversion to boolean. ECMAScript
+1 avoided that cost by making objects always truthy.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         <pubDate>Sun, 22 Mar 2015 12:46:42 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotes-from-speaking-javascript-book.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotes-from-speaking-javascript-book.html</guid>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</guid>
         
         
         <category>jekyll</category>

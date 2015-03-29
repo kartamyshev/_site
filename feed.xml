@@ -6,8 +6,8 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Mar 2015 14:07:54 +0300</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2015 14:07:54 +0300</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2015 15:41:09 +0300</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2015 15:41:09 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -662,6 +662,14 @@ will be &lt;a href=&quot;http://kartamyshev.github.io/_site/jekyll/update/2015/0
 &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;+!+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// This is not obviously actually, thus I need to check&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// whether &amp;quot;not a number&amp;quot; is not a number&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;isNaN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;NaN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Let&amp;#39;s check with previous chunk&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;isNaN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;NaN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+!+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// true&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// NaNNaNNaNNaNNaNNaNa&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out these links here:&lt;br /&gt;
 &lt;a href=&quot;https://www.destroyallsoftware.com/talks/wat&quot;&gt;https://www.destroyallsoftware.com/talks/wat&lt;/a&gt;&lt;br /&gt;

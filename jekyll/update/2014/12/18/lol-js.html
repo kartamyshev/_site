@@ -142,6 +142,14 @@
 
 <div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">+!+</span><span class="p">[]</span> <span class="c1">// 1</span></code></pre></div>
 
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// This is not obviously actually, thus I need to check</span>
+<span class="c1">// whether &quot;not a number&quot; is not a number</span>
+<span class="nb">isNaN</span><span class="p">(</span><span class="kc">NaN</span><span class="p">)</span>
+
+<span class="c1">// Let&#39;s check with previous chunk</span>
+<span class="nb">isNaN</span><span class="p">(</span><span class="kc">NaN</span><span class="p">)</span> <span class="o">==</span> <span class="o">+!+</span><span class="p">[]</span> <span class="c1">// true</span>
+<span class="c1">// NaNNaNNaNNaNNaNNaNa</span></code></pre></div>
+
 <p>Check out these links here:<br />
 <a href="https://www.destroyallsoftware.com/talks/wat">https://www.destroyallsoftware.com/talks/wat</a><br />
 <a href="http://www.phpied.com/files/location-location/location-location.html">http://www.phpied.com/files/location-location/location-location.html</a><br />

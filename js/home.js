@@ -37,9 +37,7 @@ var App = (function(window, document, undefined) {
             }
         },
         init: {
-            saveText: function (text) {
-                text = text || ''
-            }
+
         }
     };
 

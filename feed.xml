@@ -6,9 +6,28 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 29 Mar 2015 13:07:44 +0300</pubDate>
-    <lastBuildDate>Sun, 29 Mar 2015 13:07:44 +0300</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2015 14:07:54 +0300</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2015 14:07:54 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Epic</title>
+        <description>&lt;p&gt;You and your friend solve math problems during math class because the math
+class is to dull?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Sun, 29 Mar 2015 17:04:37 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Useful quotations from &quot;Speaking Javascript&quot; book </title>
@@ -659,42 +678,6 @@ will be &lt;a href=&quot;http://kartamyshev.github.io/_site/jekyll/update/2015/0
         <pubDate>Thu, 18 Dec 2014 21:39:08 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/18/lol-js.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/18/lol-js.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Morhceeba concert</title>
-        <description>&lt;p&gt;I can not help but share. A lot of positive emotions in spite of not being very good sound for the band 
-of this magnitude and awesome atmosphere which gave Prime Hall and Morcheeba!&lt;/p&gt;
-
-&lt;p&gt;I was for the first time in this place and for sure for the first time at the Morcheeba concert.
-If I have an opportunity to visit the same performance, I would use it. At least for the next day.
-At least for all the same songs. &lt;/p&gt;
-
-&lt;p&gt;Prime Hall is beautiful.
-I can’t believe the club accommodates up to 500 people! No squares, no stadiums. And Morcheeba was there!&lt;br /&gt;
-This is perfect. Atmosphere was like this Maroon 5 Montreal performance.&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;//www.youtube.com/embed/c-jojTa6_0Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Oh, Maroon, when you arrive in Minsk?&lt;/p&gt;
-
-&lt;p&gt;Video report can be seen &lt;a href=&quot;https://yadi.sk/d/tMbhUXY6dQ7tq&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;P.S. Video from a wonderful performance in Lugano.&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/e5Q_-Zin4d4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Cheers!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 16 Dec 2014 05:10:14 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/16/morcheeba.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/16/morcheeba.html</guid>
         
         
         <category>jekyll</category>

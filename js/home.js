@@ -10,7 +10,6 @@ var _ = {
     }
 };
 
-
 var App = (function(window, document, undefined) {
 
     window.document.addEventListener('DOMContentLoaded', function() {

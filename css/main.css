@@ -189,6 +189,17 @@ pre {
   display: block;
   font-size: 24px; }
 
+.private-bitbucket-repositories {
+  color: #cccccc;
+  margin-bottom: 15px; }
+  .private-bitbucket-repositories h3 {
+    margin-bottom: 0; }
+  .private-bitbucket-repositories span {
+    font-size: 16px; }
+  .private-bitbucket-repositories a {
+    color: #cccccc;
+    text-decoration: underline; }
+
 .post-header {
   margin-bottom: 30px; }
 

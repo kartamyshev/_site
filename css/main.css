@@ -109,7 +109,7 @@ pre {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: fixed;
-  background: rgba(253, 253, 253, 0.95);
+  background: rgba(253, 253, 253, 0.4);
   left: 0;
   right: 0;
   z-index: 1; }
@@ -178,7 +178,7 @@ pre {
     margin-bottom: 0; }
   .post-list > li {
     padding: 15px 10px;
-    border: solid #e8e8e8;
+    border: solid rgba(0, 0, 0, 0.1);
     border-width: 0 0 1px; }
 
 .post-meta {
@@ -188,6 +188,17 @@ pre {
 .post-link {
   display: block;
   font-size: 24px; }
+
+.cover-bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .057;
+  z-index: -1;
+  background: #fbfbfb url("http://i.ytimg.com/vi/bTqUaeDL0pk/maxresdefault.jpg") no-repeat fixed 0 0;
+  background-size: cover; }
 
 .private-bitbucket-repositories {
   color: #cccccc;

@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vanilla DOM</title>
-    <description>Description field
+    <description>Kartamyshev Konstantin blog
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Apr 2015 20:12:48 +0300</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2015 20:12:48 +0300</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2015 20:29:25 +0300</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2015 20:29:25 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>

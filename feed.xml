@@ -6,8 +6,8 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 May 2015 19:34:18 +0300</pubDate>
-    <lastBuildDate>Thu, 07 May 2015 19:34:18 +0300</lastBuildDate>
+    <pubDate>Fri, 08 May 2015 22:36:47 +0300</pubDate>
+    <lastBuildDate>Fri, 08 May 2015 22:36:47 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -32,6 +32,19 @@ class is to dull?&lt;/p&gt;
 
 &lt;p&gt;— Разве слепые обычно не носят тёмные очки?&lt;br /&gt;
 — Тёмные очки? Не знаю, я никогда не видела слепых.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Расстояние - это не функция, зависящая от времени.
+Скорость - это расстояние, делённое на время.
+Мы не учитываем ускорение и коэффициент трения.
+Чтобы быть в пути, нужно иметь скорость.
+В противоположном случае - останавливаться в пути.
+Останавливаться - это скучно.
+Останавливаться в пути не значит, что ты в пути.
+Останавливаться в пути значит останавливаться в пути.
+В конце пути не останавливаются.
+Останавливаются или до конца пути, или совсем не останавливаются.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Mar 2015 17:04:37 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</link>

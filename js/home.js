@@ -1,13 +1,5 @@
-var _ = {
-    $: function (el) {
-        return document.querySelector(el);
-    },
-    $$: function (el) {
-        return document.querySelectorAll(el);
-    },
-    type: function (_of) {
-        return Object.prototype.toString.call(_of).replace(/^\[object (.+)]$/, '$1').toLowerCase();
-    }
+var $ = function (el) {
+    return document.querySelector(el);
 };
 
 var App = (function(window, document, undefined) {
@@ -16,16 +8,11 @@ var App = (function(window, document, undefined) {
         App.go();
     });
 
-    var _local = {
-        goBack: function () {
-            window.history.back();
-        }
-    };
+    function back() {
+        history.back();
+    }
 
-    _.$('.history-back').addEventListener('click', _local.goBack, false);
-
-
-
+    $('.history-back').addEventListener('click', back, false);
 
     return {
         go: function() {

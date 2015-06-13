@@ -6,9 +6,24 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jun 2015 07:52:55 +0300</pubDate>
-    <lastBuildDate>Mon, 08 Jun 2015 07:52:55 +0300</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2015 14:20:52 +0300</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2015 14:20:52 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Proud to present</title>
+        <description>&lt;audio src=&quot;http://kartamyshev.github.io/_site/assets/audio/crazy in love.mp3&quot; controls=&quot;&quot;&gt;&lt;/audio&gt;
+</description>
+        <pubDate>Sat, 13 Jun 2015 13:02:00 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/06/13/proud-to-present.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/06/13/proud-to-present.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>&quot;Жизньвкайф&quot; тренд</title>
@@ -647,24 +662,6 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
         <pubDate>Fri, 26 Dec 2014 16:10:00 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Brussels, Brugge, Ghent, Ostende</title>
-        <description>&lt;p&gt;31th of December we are going to &lt;strong&gt;Belgium&lt;/strong&gt; with friends!&lt;br /&gt;
-I won’t write &lt;code&gt;&amp;lt;code /&amp;gt;&lt;/code&gt; more than a week.&lt;br /&gt;
-Yay! Good luck for us! Report and impressions 
-will be &lt;a href=&quot;http://kartamyshev.github.io/_site/jekyll/update/2015/01/15/coming-back-from-Belgium-part-1.html&quot;&gt;here&lt;/a&gt; after we return. &lt;code&gt;true :)&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 Dec 2014 20:41:08 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/19/brussels-brugge-ghent-ostende.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/19/brussels-brugge-ghent-ostende.html</guid>
         
         
         <category>jekyll</category>

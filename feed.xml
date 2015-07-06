@@ -6,9 +6,31 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jun 2015 14:28:47 +0300</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2015 14:28:47 +0300</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2015 21:06:19 +0300</pubDate>
+    <lastBuildDate>Mon, 06 Jul 2015 21:06:19 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Австрия - Италия</title>
+        <description>&lt;p&gt;Похоже, в этом году мне удастся побывать на отдыхе в Италии в качестве туриста
+и на работе в Австрии в качестве девелопера.&lt;/p&gt;
+
+&lt;p&gt;Мой первый опыт участия в воркшопе перед началом нового проекта.
+Ну а после этого - Фальконара. На пляж. Полежать. И, возможно, во Флоренцию или Верону.
+Впрочем, ещё не решил.&lt;/p&gt;
+
+&lt;p&gt;Фоточки и впечатления будут здесь либо во время путешествия, либо уже после.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Jul 2015 23:59:48 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/07/06/austria-italy.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/07/06/austria-italy.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>&quot;Жизньвкайф&quot; тренд</title>
@@ -647,24 +669,6 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
         <pubDate>Fri, 26 Dec 2014 16:10:00 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Brussels, Brugge, Ghent, Ostende</title>
-        <description>&lt;p&gt;31th of December we are going to &lt;strong&gt;Belgium&lt;/strong&gt; with friends!&lt;br /&gt;
-I won’t write &lt;code&gt;&amp;lt;code /&amp;gt;&lt;/code&gt; more than a week.&lt;br /&gt;
-Yay! Good luck for us! Report and impressions 
-will be &lt;a href=&quot;http://kartamyshev.github.io/_site/jekyll/update/2015/01/15/coming-back-from-Belgium-part-1.html&quot;&gt;here&lt;/a&gt; after we return. &lt;code&gt;true :)&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 Dec 2014 20:41:08 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/19/brussels-brugge-ghent-ostende.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/19/brussels-brugge-ghent-ostende.html</guid>
         
         
         <category>jekyll</category>

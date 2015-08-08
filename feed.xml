@@ -6,9 +6,32 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Jul 2015 21:06:19 +0300</pubDate>
-    <lastBuildDate>Mon, 06 Jul 2015 21:06:19 +0300</lastBuildDate>
+    <pubDate>Sat, 08 Aug 2015 11:33:01 +0300</pubDate>
+    <lastBuildDate>Sat, 08 Aug 2015 11:33:01 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Proud to present</title>
+        <description>&lt;p&gt;Первая работа за несколько последних лет практически полного отсутствия музыки и всего, что с ней связано.
+Приятно. Хоть и долго.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/v5hQJ8h-7Gc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;P.S. Если что - я слева. Барабанщик и басист на фотосет приехать не смогли. Shame on them.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Sat, 08 Aug 2015 14:23:05 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/08/08/proud-to-present.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/08/08/proud-to-present.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Австрия - Италия</title>
@@ -20,6 +43,9 @@
 Впрочем, ещё не решил.&lt;/p&gt;
 
 &lt;p&gt;Фоточки и впечатления будут здесь либо во время путешествия, либо уже после.&lt;/p&gt;
+
+&lt;hr /&gt;
+
 </description>
         <pubDate>Mon, 06 Jul 2015 23:59:48 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/07/06/austria-italy.html</link>
@@ -633,42 +659,6 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
         <pubDate>Thu, 15 Jan 2015 00:33:45 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/01/15/coming-back-from-Belgium-part-1.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/01/15/coming-back-from-Belgium-part-1.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Пост имени тернарного оператора</title>
-        <description>&lt;p&gt;Случилось однажды, что нужно было присваивать переменной
-ноль или единицу. Причём, при каждой загрузке страницы, эта переменная 
-должна быть псевдорандомная. Причём, сделать это нужно было очень срочно.
-Причём, написать нужно было решение с минимальным количеством символов. 
-От этого зависела жизнь и дальнейшая судьба меня как разработчика.&lt;/p&gt;
-
-&lt;p&gt;Мой единственный вариант &lt;code&gt;Math.round(Math.random())&lt;/code&gt; насчитывает &lt;strong&gt;25&lt;/strong&gt; символов.
-А вот &lt;a href=&quot;http://ymatuhin.github.io/#!/blog/get_random_0_or_1/&quot;&gt;этот вот&lt;/a&gt; человек предложил
-вариант из &lt;strong&gt;20&lt;/strong&gt; и вариант из &lt;strong&gt;18&lt;/strong&gt; символов. &lt;/p&gt;
-
-&lt;p&gt;Итого, получается, что Юра лучше меня на &lt;strong&gt;38&lt;/strong&gt; процентов &lt;strong&gt;(25 / 18)&lt;/strong&gt;, 
-а я - это &lt;strong&gt;0.72 (18 / 25)&lt;/strong&gt; Юры.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Сегодня же Юра прислал мне в скайп вот такой текст: &lt;br /&gt;
-“Вот тебе, мол, задачка. Как переписать условное выражение еще короче
-&lt;code&gt;z = x ? 1 : 0;&lt;/code&gt;”?&lt;/p&gt;
-
-&lt;p&gt;Это был вызов всей моей карьере.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;z = +!!x;&lt;/code&gt;, ответил я. И был прав.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 26 Dec 2014 16:10:00 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2014/12/26/ternary-operator.html</guid>
         
         
         <category>jekyll</category>

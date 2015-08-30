@@ -6,9 +6,44 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Aug 2015 08:26:24 +0300</pubDate>
-    <lastBuildDate>Wed, 12 Aug 2015 08:26:24 +0300</lastBuildDate>
+    <pubDate>Sun, 30 Aug 2015 15:10:18 +0300</pubDate>
+    <lastBuildDate>Sun, 30 Aug 2015 15:10:18 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>React webpack ready to use starter kit</title>
+        <description>&lt;p&gt;Приятно начинать проект с полностью настроенным под себя environment.
+Не так давно я начал достаточно глубоко для себя копать webpack, хотя пользовался им
+уже около полугода на работе. Никак руки не доходили подпилить под себя.&lt;/p&gt;
+
+&lt;p&gt;И вот, спустя некоторое время, когда удалось найти время на выходных, я полностью сделал
+так, как мне удобно. Чтобы прямо как рыба в воде.&lt;/p&gt;
+
+&lt;p&gt;Он не идеален. Он совсем ещё не фрейморк. Он тривиален, посколько подобных решений можно найти
+много, особенно на гитхабе. Сплошь и рядом. Однако мой сделан мной, ни откуда не скопипащен, настроен 
+под меня и мне кайфово.&lt;/p&gt;
+
+&lt;p&gt;Лежит он &lt;a href=&quot;https://github.com/kartamyshev/react-webpack-kit&quot;&gt;здесь&lt;/a&gt;. Буду постепенно улучшать, исправлять, 
+фиксить, разбираться с тем, что ещё непонятно. Но для меня это, определённо, шаг навстречу автоматизации
+процесса как разработки, так и быстрого старта для разработки чего угодно. Хоть прототипов, хоть тестовых заданий.&lt;br /&gt;
+А, может быть, и чего-то большего.&lt;/p&gt;
+
+&lt;p&gt;P.S. Пользуйтесь, клонируйте, форкайте, жмите на звёздочку, если ок, пишите мне, если не ок. )&lt;br /&gt;
+Спасибо.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+</description>
+        <pubDate>Sun, 30 Aug 2015 17:58:12 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/08/30/react-webpack-starter-kit.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/08/30/react-webpack-starter-kit.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Proud to present</title>
@@ -561,104 +596,6 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
         <pubDate>Fri, 16 Jan 2015 04:16:20 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/01/16/coming-back-from-Belgium-part-2.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/01/16/coming-back-from-Belgium-part-2.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>&quot;Я не сплю ведь. Но всё будто бы во сне...&quot;</title>
-        <description>&lt;p&gt;Сразу хочется сказать - фотографировать бесполезно. Во-первых - это трата времени и 
-суета (если вы, конечно, не приехали специально фотографировать), во-вторых - очень 
-сложно передать то, что видишь. Я бы даже назвал кощунством попытки запечатлеть увиденное.&lt;br /&gt;
-Однако, конечно же, мы делали фото. И кое-какие здесь будут.&lt;/p&gt;
-
-&lt;p&gt;Единственное, что хочется - это чтобы все дорогие и близкие мне люди это увидели.
-Особенно Брюгге. Или нет. Особенно Остенде… Или Гент, может быть? Чёрт, как же 
-непросто всё. Но абсолютно логично в этот импульсивный список не попал Брюссель.
-Почему? Далее по тексту.&lt;/p&gt;
-
-&lt;p&gt;Бельгия показала себя с очень разных ракурсов. Хотя мы вроде на это не претендовали.&lt;br /&gt;
-Но буду последовательным.&lt;/p&gt;
-
-&lt;p&gt;Началось всё с моего приезда в город к друзьям, откуда мы потом уехали в Москву
-в аэропорт. Хотя нет. Всё началось с просмотра фильма “Залечь на дно в Брюгге”
-около двух лет назад. Фильм впечатлил, ровно как и город, в нём показанный. Настолько
-впечатлил, что гора туристов, начиная с 2007 года заполонила небольшой средневековый
-фламандский городок. Настолько впечатлил, что вот такой странный был у нас вид 
-за несколько часов до нового года. &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/1.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ну и, естественно, я был очень рад увидеться с друзьями.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;У меня аэрофобия. Поэтому самое малоприятное занятие из всей поездки - это самолёт. За последние пять лет я 
-совершил не один перелёт и, конечно, многое поменялось. Сейчас страх граничит с восхищением. Особенно, глядя в 
-иллюминатор. Раньше я вообще не мог и близко к нему подходить.&lt;br /&gt;
-Но, к счастью, перелёт занимает не так уж и много времени по сравнению со временем, проведённым за границей.&lt;/p&gt;
-
-&lt;p&gt;По прилёту в Брюссель мне пришлось немного поспать (часов 15) и не увидеть город до самого следующего утра.
-Были на то причины. :)&lt;br /&gt;
-Брюссель запомнился очень большим 
-&lt;a href=&quot;https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2_%28%D0%91%D1%80%D1%8E%D1%81%D1%81%D0%B5%D0%BB%D1%8C%29&quot;&gt;музеем музыкальных инструментов&lt;/a&gt;, 
-в котором представлены масса инструментов за несколько столетий.
-Человеку, связанному с музыкой, там будет крайне интересно. Так как все мы трое непосредственно связаны с музыкой 
-(волынщица-художник, мультиинструменталист и гитарист) - мы провели внутри около трёх часов. Аудиогид даёт возможность
-услышать звук любого из инструментов. Это замечательно.
-&lt;a href=&quot;http://www.tripadvisor.ru/Attraction_Review-g188644-d196136-Reviews-MIM_Musical_Instruments_Museum-Brussels.html&quot;&gt;Отзывы на tripadvisor&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Брюссель у нас получился променадно-шоппинговым. Времени на него было не так уж и много, да мы и не планировали
-в нём задерживаться. Увидели писающего мальчика, не увидели квартал красных фонарей (хотя очень хотелось), посмотрели 
-на архитектуру, которая сочетает в себе готичные здания, перемешанные современными офисными постройками, ну и, конечно, 
-шикарный дневной и вечерний новогодний центр города.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/2.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;В одном из магазинов видели даже вот такое:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/3.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;кинули по монетке и запечатлили себя на гламурненьком селфи.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/4.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;На следующий день поехали в Брюгге. Ехать от Брюсселя 1 час 20 минут. Поезда комфортные, время прошло быстро.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Брюгге… Что же про тебя рассказать-то, а? Может быть тебя показать?&lt;br /&gt;
-Вид недалеко от отеля:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/5.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;А вот и башня, с которой упал бедняга-киллер:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/6.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/7.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;“Пряничные” домики:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/8.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/9.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ночная улица:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://kartamyshev.github.io/_site/assets/belgium/10.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://kartamyshev.github.io/_site/jekyll/update/2015/01/16/coming-back-from-Belgium-part-2.html&quot;&gt;Часть 2&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Jan 2015 00:33:45 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/01/15/coming-back-from-Belgium-part-1.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/01/15/coming-back-from-Belgium-part-1.html</guid>
         
         
         <category>jekyll</category>

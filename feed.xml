@@ -6,8 +6,8 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Nov 2015 20:13:02 +0300</pubDate>
-    <lastBuildDate>Sat, 21 Nov 2015 20:13:02 +0300</lastBuildDate>
+    <pubDate>Sat, 05 Dec 2015 10:12:55 +0300</pubDate>
+    <lastBuildDate>Sat, 05 Dec 2015 10:12:55 +0300</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -98,27 +98,24 @@ You. Are. Awesome. No more words. Pure Music.  &lt;/p&gt;
     
       <item>
         <title>React webpack ready to use starter kit</title>
-        <description>&lt;p&gt;Приятно начинать проект с полностью настроенным под себя environment.
-Не так давно я начал достаточно глубоко для себя копать webpack, хотя пользовался им
-уже около полугода на работе. Никак руки не доходили подпилить под себя.&lt;/p&gt;
+        <description>&lt;p&gt;It’s nice to kick off the project with fully configured environment.
+I’ve recently started looking deeply into 
+&lt;a href=&quot;https://webpack.github.io/&quot;&gt;webpack&lt;/a&gt;, 
+it was one of the main instruments for about semiannual period of time although.
+I just did not manage to make my own kind of fork of config file.&lt;/p&gt;
 
-&lt;p&gt;И вот, спустя некоторое время, когда удалось найти время на выходных, я полностью сделал
-так, как мне удобно. Чтобы прямо как рыба в воде.&lt;/p&gt;
+&lt;p&gt;After a while I’ve reached some state called “I am in my element”. &lt;/p&gt;
 
-&lt;p&gt;Он не идеален. Он совсем ещё не фрейморк. Он тривиален, поскольку подобных решений можно найти
-много, особенно на гитхабе. Сплошь и рядом. Однако мой сделан мной, ни откуда не скопипащен, настроен 
-под меня и мне кайфово.&lt;/p&gt;
+&lt;p&gt;It isn’t perfect. It’s not even a framework. It is trivial, because you can find 
+dozens and dozens of similar solutions, especially on github. However it is mine.
+No copypaste or something.&lt;/p&gt;
 
-&lt;p&gt;Лежит он &lt;a href=&quot;https://github.com/kartamyshev/react-webpack-kit&quot;&gt;здесь&lt;/a&gt;. Буду постепенно улучшать, исправлять, 
-фиксить, разбираться с тем, что ещё непонятно. Но для меня это, определённо, шаг навстречу автоматизации
-процесса как разработки, так и быстрого старта для разработки чего угодно. Хоть прототипов, хоть тестовых заданий.&lt;br /&gt;
-А, может быть, и чего-то большего.&lt;/p&gt;
-
-&lt;p&gt;P.S. Пользуйтесь, клонируйте, форкайте, жмите на звёздочку, если ок, пишите мне, если не ок. )&lt;br /&gt;
-Спасибо.&lt;/p&gt;
+&lt;p&gt;You can find it &lt;a href=&quot;https://github.com/kartamyshev/react-webpack-kit&quot;&gt;here&lt;/a&gt;.
+I’m planning to improve it little by little, fix issues, add features, 
+deal with pitfalls etc. But it is definitely a big step forward for 
+automation build process, workflow and such.&lt;/p&gt;
 
 &lt;hr /&gt;
-
 </description>
         <pubDate>Sun, 30 Aug 2015 17:58:12 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/08/30/react-webpack-starter-kit.html</link>

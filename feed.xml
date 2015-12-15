@@ -6,14 +6,14 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Dec 2015 10:12:55 +0300</pubDate>
-    <lastBuildDate>Sat, 05 Dec 2015 10:12:55 +0300</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <pubDate>Tue, 15 Dec 2015 14:48:38 +0300</pubDate>
+    <lastBuildDate>Tue, 15 Dec 2015 14:48:38 +0300</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Fink. Minsk. 01.11.2015</title>
         <description>&lt;p&gt;Fink (Fin Greenall, Tim Thornton, Guy Whittaker).&lt;br /&gt;
-You. Are. Awesome. No more words. Pure Music.  &lt;/p&gt;
+You. Are. Awesome. No more words. Pure Music.&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sJKB1EiZVrc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -104,7 +104,7 @@ I’ve recently started looking deeply into
 it was one of the main instruments for about semiannual period of time although.
 I just did not manage to make my own kind of fork of config file.&lt;/p&gt;
 
-&lt;p&gt;After a while I’ve reached some state called “I am in my element”. &lt;/p&gt;
+&lt;p&gt;After a while I’ve reached some state called “I am in my element”.&lt;/p&gt;
 
 &lt;p&gt;It isn’t perfect. It’s not even a framework. It is trivial, because you can find 
 dozens and dozens of similar solutions, especially on github. However it is mine.
@@ -174,7 +174,7 @@ automation build process, workflow and such.&lt;/p&gt;
 &lt;strong&gt;Ответ:&lt;/strong&gt; Моя песочница выглядит именно так, как я хочу. Эгоизм в действии.
 И мне всё же интересно мнение окружающих.&lt;/p&gt;
 
-&lt;p&gt;А теперь о важном &lt;code&gt;!important;&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;А теперь о важном &lt;code class=&quot;highlighter-rouge&quot;&gt;!important;&lt;/code&gt;&lt;br /&gt;
 Возможно, это связано с моим мировоззрением или текущим состоянием/настроением, но я заметил за собой 
 растущую раздражительность некоторыми вещами. Отчасти об этом составлен список в предыдущем посте, но сегодня мне 
 хотелось бы высказаться в более резкой форме о насущной и очень заметной тенденции последних лет.
@@ -187,7 +187,7 @@ automation build process, workflow and such.&lt;/p&gt;
 Но у меня есть ответ. Я хорошо зарабатываю. Головой, причём. В 30 лет выгляжу максимум на 25.
 Бегаю полтора часа каждый (почти) вечер. Успел пожить в 4-х городах. Побывать в качестве туриста в пяти странах. 
 Совсем скоро список пополнится ещё двумя. Возможно, перееду жить в Европу. Пишу музыку, играю на гитаре, ещё надеюсь 
-на то, что удастся реализовать мечту - записать альбом крутой музыки с крутыми людьми. Так что всё отлично. &lt;/p&gt;
+на то, что удастся реализовать мечту - записать альбом крутой музыки с крутыми людьми. Так что всё отлично.&lt;/p&gt;
 
 &lt;p&gt;Кое-чего у меня, конечно, нет к моим 30-годам. Машины, детей, например. Это важно. Но так сложилось. И я осознаю, что человек
 всегда сам виноват, если чего-то не достиг. Всегда.&lt;/p&gt;
@@ -324,7 +324,7 @@ class is to dull?&lt;/p&gt;
 — Умная?&lt;br /&gt;
 — 46.&lt;br /&gt;
 — Сексуальная?&lt;br /&gt;
-— 32.  &lt;/p&gt;
+— 32.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Mar 2015 17:04:37 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</link>
@@ -414,7 +414,7 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
 — Кого ты убил за деньги, Рэймонд?&lt;br /&gt;
 — Вас, святой отец.&lt;br /&gt;
 — Простите?&lt;br /&gt;
-— Я сказал — вас, святой отец. Вы что, глухой?  &lt;/p&gt;
+— Я сказал — вас, святой отец. Вы что, глухой?&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -455,7 +455,7 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
 — Я хотел сказать, что…&lt;br /&gt;
 — Лебеди там плавают?&lt;br /&gt;
 — Да, лебеди плавают.&lt;br /&gt;
-— Там сраные лебеди плавают и они, мать их, не в его вкусе?!  &lt;/p&gt;
+— Там сраные лебеди плавают и они, мать их, не в его вкусе?!&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -506,8 +506,8 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Плохое настроение.  &lt;/li&gt;
-  &lt;li&gt;Не успеваю по математике.  &lt;/li&gt;
+  &lt;li&gt;Плохое настроение.&lt;/li&gt;
+  &lt;li&gt;Не успеваю по математике.&lt;/li&gt;
   &lt;li&gt;Грустно.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -561,7 +561,7 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;— Ты американец?&lt;br /&gt;
-— Да, я американец, но это не проблема. &lt;/p&gt;
+— Да, я американец, но это не проблема.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -570,7 +570,7 @@ Thank you Axel for your book and knowledge.&lt;/p&gt;
 — Я и не знал, что в Брюгге есть хоть какие-то проститутки.&lt;br /&gt;
 — Да ты просто глянь в нужном направлении… Бордели тут очень пристойные.&lt;br /&gt;
 — Ну, ты снял очень симпатичную проститутку.&lt;br /&gt;
-— Благодарю. &lt;/p&gt;
+— Благодарю.&lt;/p&gt;
 
 &lt;hr /&gt;
 

@@ -73,83 +73,83 @@
   </header>
 
   <article class="post-content">
-    <p>Here I’m gonna show you some mad and weird js-examples. <code>_Enjoy :)</code></p>
+    <p>Here I’m gonna show you some mad and weird js-examples. <code class="highlighter-rouge">_Enjoy :)</code></p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">alert</span><span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">alert</span><span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
     <span class="k">return</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">text</span><span class="p">);</span>
 <span class="p">}</span>
 
-<span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;text&#39;</span><span class="p">);</span></code></pre></div>
+<span class="nx">alert</span><span class="p">(</span><span class="s1">'text'</span><span class="p">);</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">console</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nx">log</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">console</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">log</span><span class="p">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">text</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">return</span> <span class="nx">alert</span><span class="p">(</span><span class="nx">text</span><span class="p">);</span>
     <span class="p">}</span>
 <span class="p">};</span>
 
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;text inside&#39;</span><span class="p">);</span></code></pre></div>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'text inside'</span><span class="p">);</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
 <span class="k">if</span> <span class="p">(</span><span class="nx">bool</span><span class="p">.</span><span class="nx">toString</span><span class="p">().</span><span class="nx">length</span> <span class="o">!==</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
     <span class="c1">//</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="kc">NaN</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="kc">NaN</span><span class="p">;</span>
 <span class="nx">a</span> <span class="o">===</span> <span class="nx">a</span><span class="p">;</span> <span class="c1">// false</span>
-<span class="nx">a</span> <span class="o">!==</span> <span class="nx">a</span><span class="p">;</span> <span class="c1">// true</span></code></pre></div>
+<span class="nx">a</span> <span class="o">!==</span> <span class="nx">a</span><span class="p">;</span> <span class="c1">// true</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">(</span><span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span><span class="p">).</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">===</span> <span class="mf">0.3</span><span class="p">;</span> <span class="c1">// false</span>
-<span class="o">+</span><span class="p">(</span><span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span><span class="p">).</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">===</span> <span class="mf">0.3</span><span class="p">;</span> <span class="c1">// true</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"> <span class="p">(</span><span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span><span class="p">).</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">===</span> <span class="mf">0.3</span><span class="p">;</span> <span class="c1">// false</span>
+<span class="o">+</span><span class="p">(</span><span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span><span class="p">).</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">===</span> <span class="mf">0.3</span><span class="p">;</span> <span class="c1">// true</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">[]</span> <span class="o">+</span> <span class="p">[];</span> <span class="c1">// &quot;&quot;</span>
-<span class="p">[]</span> <span class="o">+</span> <span class="p">{};</span> <span class="c1">// &quot;[object Object]&quot;</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">[]</span> <span class="o">+</span> <span class="p">[];</span> <span class="c1">// ""</span>
+<span class="p">[]</span> <span class="o">+</span> <span class="p">{};</span> <span class="c1">// "[object Object]"</span>
 <span class="p">{}</span> <span class="o">+</span> <span class="p">[];</span> <span class="c1">// 0</span>
-<span class="p">{}</span> <span class="o">+</span> <span class="p">{};</span> <span class="c1">// NaN</span></code></pre></div>
+<span class="p">{}</span> <span class="o">+</span> <span class="p">{};</span> <span class="c1">// NaN</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">typeof</span> <span class="kc">null</span><span class="p">;</span> <span class="c1">// object</span>
-<span class="kc">null</span> <span class="k">instanceof</span> <span class="nb">Object</span><span class="p">;</span> <span class="c1">// false</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">typeof</span> <span class="kc">null</span><span class="p">;</span> <span class="c1">// object</span>
+<span class="kc">null</span> <span class="k">instanceof</span> <span class="nb">Object</span><span class="p">;</span> <span class="c1">// false</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="mi">9999999999999999</span><span class="p">;</span> <span class="c1">// 10000000000000000</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="mi">9999999999999999</span><span class="p">;</span> <span class="c1">// 10000000000000000</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">()</span> <span class="o">&gt;</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">();</span> <span class="c1">// false</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">()</span> <span class="o">&gt;</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">();</span> <span class="c1">// false</span>
 <span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">()</span> <span class="o">&lt;</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">();</span> <span class="c1">// true</span>
-<span class="nb">Math</span><span class="p">.</span><span class="nx">abs</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">())</span> <span class="o">===</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">();</span> <span class="c1">// true (thanks God)</span></code></pre></div>
+<span class="nb">Math</span><span class="p">.</span><span class="nx">abs</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">())</span> <span class="o">===</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">min</span><span class="p">();</span> <span class="c1">// true (thanks God)</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">localStorage</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">localStorage</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
 
 <span class="k">if</span> <span class="p">(</span><span class="nx">localStorage</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;wtf&#39;</span><span class="p">);</span> <span class="c1">// runs?!</span>
-<span class="p">}</span></code></pre></div>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'wtf'</span><span class="p">);</span> <span class="c1">// runs?!</span>
+<span class="p">}</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">div</span> <span class="nx">id</span><span class="o">=</span><span class="s2">&quot;someId&quot;</span><span class="o">&gt;&lt;</span><span class="err">/div&gt;</span>
-
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">div</span> <span class="nx">id</span><span class="o">=</span><span class="s2">"someId"</span><span class="o">&gt;&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>
 <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">someId</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span> <span class="c1">// --&gt; someId</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nb">window</span><span class="p">.</span><span class="nx">someId</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span> <span class="c1">// --&gt; someId</span>
 
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;someId&#39;</span> <span class="k">in</span> <span class="nb">window</span><span class="p">)</span> <span class="c1">// true</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'someId'</span> <span class="k">in</span> <span class="nb">window</span><span class="p">)</span> <span class="c1">// true</span>
 
 
     <span class="kd">var</span> <span class="nx">present</span> <span class="o">=</span> <span class="kc">false</span><span class="p">;</span>
 
 
     <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="k">in</span> <span class="nb">window</span><span class="p">)</span> <span class="p">{</span>
-        <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">===</span> <span class="s1">&#39;someId&#39;</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">i</span> <span class="o">===</span> <span class="s1">'someId'</span><span class="p">)</span> <span class="p">{</span>
             <span class="nx">present</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
         <span class="p">}</span>
     <span class="p">}</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">present</span><span class="p">);</span> <span class="c1">// false (??!) wtf</span>
-<span class="o">&lt;</span><span class="err">/script&gt;</span></code></pre></div>
+<span class="o">&lt;</span><span class="sr">/script&gt;</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">+!+</span><span class="p">[]</span> <span class="c1">// 1</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">+!+</span><span class="p">[]</span> <span class="c1">// 1</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// This is not obviously actually, thus I need to check</span>
-<span class="c1">// whether &quot;not a number&quot; is not a number</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// This is not obviously actually, thus I need to check</span>
+<span class="c1">// whether "not a number" is not a number</span>
 <span class="nb">isNaN</span><span class="p">(</span><span class="kc">NaN</span><span class="p">)</span>
 
-<span class="c1">// Let&#39;s check with previous chunk</span>
+<span class="c1">// Let's check with previous chunk</span>
 <span class="nb">isNaN</span><span class="p">(</span><span class="kc">NaN</span><span class="p">)</span> <span class="o">==</span> <span class="o">+!+</span><span class="p">[]</span> <span class="c1">// true</span>
-<span class="c1">// NaNNaNNaNNaNNaNNaNa</span></code></pre></div>
+<span class="c1">// NaNNaNNaNNaNNaNNaNa</span></code></pre></figure>
 
 <div class="break-word">
     Check out these links here: <br /> 
@@ -159,10 +159,10 @@
     <a href="http://wtfjs.com/](http://wtfjs.com/">http://wtfjs.com/](http://wtfjs.com/</a><br /> 
     <a href="http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/">http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/</a><br /> 
 </div>
-<p>And my goofy <a href="http://kartamyshev.github.io/JS-humor">presentation</a>:  </p>
+<p>And my goofy <a href="http://kartamyshev.github.io/JS-humor">presentation</a>:</p>
 
 <p>And…<br />
-<code>Love js )</code></p>
+<code class="highlighter-rouge">Love js )</code></p>
 
   </article>
 
@@ -258,7 +258,7 @@
 
             <div class="footer-col  footer-col-3">
                 <p class="text">
-                    <a href="https://www.youtube.com/watch?v=lIuls4LjmO8">
+                    <a href="https://www.youtube.com/watch?v=Ji-POOc1Tac">
                         lovely music from footer
                     </a>
                 </p>

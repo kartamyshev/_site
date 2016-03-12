@@ -104,7 +104,8 @@
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">[]</span> <span class="o">+</span> <span class="p">[];</span> <span class="c1">// ""</span>
 <span class="p">[]</span> <span class="o">+</span> <span class="p">{};</span> <span class="c1">// "[object Object]"</span>
 <span class="p">{}</span> <span class="o">+</span> <span class="p">[];</span> <span class="c1">// 0</span>
-<span class="p">{}</span> <span class="o">+</span> <span class="p">{};</span> <span class="c1">// NaN</span></code></pre></figure>
+<span class="p">{}</span> <span class="o">+</span> <span class="p">{};</span> <span class="c1">// NaN</span>
+<span class="p">[]</span> <span class="o">==</span> <span class="o">!</span><span class="p">[]</span> <span class="c1">// true</span></code></pre></figure>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">typeof</span> <span class="kc">null</span><span class="p">;</span> <span class="c1">// object</span>
 <span class="kc">null</span> <span class="k">instanceof</span> <span class="nb">Object</span><span class="p">;</span> <span class="c1">// false</span></code></pre></figure>
@@ -151,6 +152,36 @@
 <span class="nb">isNaN</span><span class="p">(</span><span class="kc">NaN</span><span class="p">)</span> <span class="o">==</span> <span class="o">+!+</span><span class="p">[]</span> <span class="c1">// true</span>
 <span class="c1">// NaNNaNNaNNaNNaNNaNa</span></code></pre></figure>
 
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">Number</span><span class="p">.</span><span class="nx">MAX_VALUE</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="c1">// true</span>
+<span class="nb">Number</span><span class="p">.</span><span class="nx">MIN_VALUE</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="c1">// false</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="mi">42</span><span class="p">.</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// Syntax Error</span>
+<span class="mi">42</span><span class="p">.</span> <span class="nx">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// Syntax Error</span>
+<span class="mi">42</span> <span class="p">.</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// "42.00"</span>
+<span class="mi">42</span> <span class="p">.</span> <span class="nx">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// "42.00"</span>
+<span class="mf">42.0</span><span class="p">.</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// "42.00"</span>
+<span class="mi">42</span><span class="p">..</span><span class="nx">toFixed</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// "42.00"</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">Symbol</span><span class="p">(</span><span class="s2">"That's cool"</span><span class="p">);</span>
+<span class="nx">s</span><span class="p">;</span> <span class="c1">// Symbol(that's cool)</span>
+<span class="nb">String</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span> <span class="c1">// "Symbol(That's cool)"</span>
+<span class="nx">s</span> <span class="o">+</span> <span class="s2">""</span> <span class="c1">// TypeError</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="k">switch</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nl">default</span><span class="p">:</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'yep'</span><span class="p">);</span>
+  <span class="k">case</span> <span class="mi">10</span><span class="err">:</span>
+  <span class="k">case</span> <span class="mi">20</span><span class="err">:</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'oops'</span><span class="p">);</span>
+    <span class="k">break</span><span class="p">;</span>
+  <span class="k">case</span> <span class="mi">30</span><span class="err">:</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'nope'</span><span class="p">);</span>
+    <span class="k">break</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// yep</span>
+<span class="c1">// oops</span></code></pre></figure>
+
 <div class="break-word">
     Check out these links here: <br /> 
     <a href="https://www.destroyallsoftware.com/talks/wat">https://www.destroyallsoftware.com/talks/wat</a><br />
@@ -158,6 +189,8 @@
     <a href="http://charlieharvey.org.uk/page/javascript_the_weird_parts">http://charlieharvey.org.uk/page/javascript_the_weird_parts</a><br /> 
     <a href="http://wtfjs.com/](http://wtfjs.com/">http://wtfjs.com/](http://wtfjs.com/</a><br /> 
     <a href="http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/">http://blog.mgechev.com/2013/02/22/javascript-the-weird-parts/</a><br /> 
+    <a href="https://www.youtube.com/watch?v=2pL28CcEijU">https://www.youtube.com/watch?v=2pL28CcEijU</a><br /> 
+
 </div>
 <p>And my goofy <a href="http://kartamyshev.github.io/JS-humor">presentation</a>:</p>
 

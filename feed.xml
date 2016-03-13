@@ -6,9 +6,81 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Mar 2016 00:28:31 +0300</pubDate>
-    <lastBuildDate>Sun, 13 Mar 2016 00:28:31 +0300</lastBuildDate>
+    <pubDate>Sun, 13 Mar 2016 12:26:40 +0300</pubDate>
+    <lastBuildDate>Sun, 13 Mar 2016 12:26:40 +0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Adverbs</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;actually&lt;/strong&gt; - фактически, на самом деле&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;admittedly&lt;/strong&gt; - по общему признанию, предположительно&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;basically&lt;/strong&gt; - в основном&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;completely&lt;/strong&gt; - полностью&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;correctly&lt;/strong&gt; - правильно, верно, грамотно&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;currently&lt;/strong&gt; - в настоящее время, теперь&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;effectively&lt;/strong&gt; - продуктивно&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;eventually&lt;/strong&gt; - в итоге&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;finally&lt;/strong&gt; - окончательно, в заключение…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;fully&lt;/strong&gt; - вполне, полностью&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;fundamentally&lt;/strong&gt; - принципиально, в основе&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;graciously&lt;/strong&gt; - любезно&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;hopefully&lt;/strong&gt; - с надеждой&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;immediately&lt;/strong&gt; - тотчас же, немедленно&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;naturally&lt;/strong&gt; - конечно, естественно&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;necessarily&lt;/strong&gt; - обязательно, непременно&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;luckily&lt;/strong&gt; - к счастью&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;patiently&lt;/strong&gt; - терпеливо&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;potentially&lt;/strong&gt; - потенциально, возможно&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;probably&lt;/strong&gt; - вероятно&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;really&lt;/strong&gt; - действительно, на самом деле&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;relatively&lt;/strong&gt; - относительно&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;reliably&lt;/strong&gt; - надёжно&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;remotely&lt;/strong&gt; - удалённо&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;roughly&lt;/strong&gt; - приблизительно, грубо&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;simply&lt;/strong&gt; - попросту, просто&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;sloppily&lt;/strong&gt; - неряшливо&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;statically&lt;/strong&gt; - статически&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;technically&lt;/strong&gt; - технически&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ultimately&lt;/strong&gt; - в конечном счёте&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 13 Mar 2016 11:34:12 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2016/03/13/adverbs.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2016/03/13/adverbs.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Покиньте Интернет</title>
@@ -460,30 +532,6 @@ objects if they were able to configure their conversion to boolean. ECMAScript
         <pubDate>Sun, 22 Mar 2015 12:46:42 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Axel Rauschmayer EcmaScript 6 videos</title>
-        <description>&lt;p&gt;I just wanted to share these videos by one of my favourites JavaScript evangelist.&lt;br /&gt;
-Thank you Axel for your book and knowledge.&lt;/p&gt;
-
-&lt;p&gt;Part 1&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Fg3bEZIcnUw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Part 2&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Vhhq1WpzsnM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Sun, 15 Mar 2015 14:52:03 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/15/Axel-Rauschmayer-ES6.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/15/Axel-Rauschmayer-ES6.html</guid>
         
         
         <category>jekyll</category>

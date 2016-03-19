@@ -6,9 +6,154 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 13 Mar 2016 13:15:28 +0300</pubDate>
-    <lastBuildDate>Sun, 13 Mar 2016 13:15:28 +0300</lastBuildDate>
+    <pubDate>Sat, 19 Mar 2016 06:13:47 +0300</pubDate>
+    <lastBuildDate>Sat, 19 Mar 2016 06:13:47 +0300</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Быстрый старт нового приложения на React с использованием nwb</title>
+        <description>&lt;p&gt;Оригинал &lt;a href=&quot;https://medium.com/@dtinth/quickly-start-a-new-react-application-using-nwb-334db59691d9#.kg7qhz6sj&quot;&gt;здесь&lt;/a&gt;.&lt;br /&gt;
+&lt;a href=&quot;https://habrahabr.ru/post/279513/&quot;&gt;Перевод&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Написав несколько приложений на React, теперь уже довольно скучно каждый раз начинать всё сначала. 
+Мне нужно настроить webpack, webpack-dev-server, Babel с некоторыми пресетами и плагинами, Karma, React, 
+несколько лоадеров для JSON, CSS, картинок и шрифтов – и объединить всё это вместе.&lt;/p&gt;
+
+&lt;p&gt;Альтернативой мог бы стать boilerplate, но многие из них содержат в себе кучу всего ненужного 
+(роутер, Redux или сервер сайд рендеринг) и не покрывают некоторые нужные мне вещи 
+(CSS-лоадеры, unit тестирование и т.д.). Не говоря уже о том, что разные проекты требуют различной конфигурации.&lt;/p&gt;
+
+&lt;p&gt;Сегодня всё действительно быстро меняется и boilerplate устаревает достаточно быстро. 
+После того, как вы создали приложение с использованием boilerplate, на вас ложится 
+ответственность содержать все зависимости в актуальном состоянии. Я обновлял 
+зависимости для нескольких проектов и это требует довольно много туповатой, повторяющейся работы.&lt;/p&gt;
+
+&lt;p&gt;Теперь я предпочитаю использовать &lt;a href=&quot;https://github.com/insin/nwb&quot;&gt;nwb&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Шаг 1&lt;/strong&gt;. Устанавливаем nwb.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nwb&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Шаг 2&lt;/strong&gt;. Используем команду nwb для создания нового приложения на React.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nwb&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scoreboard&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Шаг 3&lt;/strong&gt;. Заглядываем внутрь.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scoreboard&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ls&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;README&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;md&lt;/span&gt;     &lt;span class=&quot;nx&quot;&gt;nwb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;js&lt;/span&gt;   &lt;span class=&quot;kr&quot;&gt;public&lt;/span&gt;   &lt;span class=&quot;nx&quot;&gt;tests&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;node_modules&lt;/span&gt;  &lt;span class=&quot;kr&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;    &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Здесь нет ни &lt;strong&gt;webpack.config.js&lt;/strong&gt;, ни &lt;strong&gt;.babelrc&lt;/strong&gt; или &lt;strong&gt;karma.conf.js&lt;/strong&gt;. 
+Все настройки в &lt;strong&gt;nwb.config.js&lt;/strong&gt;. Так что давайте посмотрим.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nwb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;js&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;react-app&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Конфигурация минимальна! Нам только нужно указать, что мы разрабатываем React-приложение 
+и разумные настройки по умолчанию будут созданы.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scoreboard&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;version&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1.0.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Describe scoreboard here&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;private&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;scripts&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;build&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nwb build&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;clean&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nwb clean&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;start&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nwb serve&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nwb test&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;react&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;0.14.x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;react-dom&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;0.14.x&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;nwb&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;0.7.x&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;license&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;MIT&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;repository&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Всё, что у нас в dependencies – это &lt;strong&gt;react&lt;/strong&gt; и &lt;strong&gt;react-dom&lt;/strong&gt;.&lt;br /&gt;
+В devDependencies только &lt;strong&gt;nwb&lt;/strong&gt;. Ни webpack, ни Karma или Babel – всё это менеджится nwb. 
+Сам по себе nwb содержит много тестов, чтобы быть уверенным, что все эти вещи вместе работают согласованно.&lt;/p&gt;
+
+&lt;p&gt;Шаг 4. Запускаем сервер.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;install&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;[...]&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;nwb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;serve&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;react&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;nwb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dev&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;listening&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;//localhost:3001&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;webpack&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;built&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a98e92c8c4d34bae8856&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2791&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ms&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Это запустит webpack-dev-server.&lt;br /&gt;
+Попробуйте поменять файлы. Вы увидите, что webpack и Babel уже настроены для hot-reload React-компонентов.
+Попробуйте заимпортить какой-нибудь npm-модуль, например:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Rx&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Благодаря флагу &lt;em&gt;–auto-install&lt;/em&gt; при сохранении файла установятся отсутствующие зависимости и добавятся в &lt;strong&gt;package.json&lt;/strong&gt;.
+Создайте и заимпортите CSS-файл. Webpack уже сконфигурирован и содержит правильный loader и autoprefixer.
+Настройка всего этого вручную заняла бы много времени.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Шаг 5&lt;/strong&gt;. Запускаем тесты.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coverage&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;[...]&lt;/span&gt;
+&lt;span class=&quot;nl&quot;&gt;SUMMARY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;√&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;completed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Это запустит Karma, интергрированную с webpack и измерением покрытия тестов.&lt;br /&gt;
+С флагом &lt;em&gt;–server&lt;/em&gt; тесты перезапускаются, когда вы сохраняете файл.&lt;br /&gt;
+С флагом &lt;em&gt;–coverage&lt;/em&gt; будет создан репорт. Вы можете установить плагин для редактора, чтобы видеть, какие строки покрыты тестами, а какие – нет.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://habrastorage.org/getpro/habr/post_images/a7a/b5d/61d/a7ab5d61d4c69898955d250435c31a59.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Наконец, запускаем&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;build&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Данная команда сгенерирует статические ассеты. JavaScript и CSS из &lt;strong&gt;node_modules&lt;/strong&gt; пойдут в &lt;strong&gt;vendor.js&lt;/strong&gt; 
+и &lt;strong&gt;vendor.css&lt;/strong&gt;, тогда как код приложения – в &lt;strong&gt;app.js&lt;/strong&gt; и &lt;strong&gt;app.css&lt;/strong&gt;. Source maps создадутся в отдельном файле &lt;strong&gt;.map&lt;/strong&gt;. 
+Можете потом загрузить их на ваш вэб-сервер.&lt;/p&gt;
+
+&lt;p&gt;Я использовал nwb в нескольких проектах.&lt;br /&gt;
+&lt;a href=&quot;https://medium.com/@dtinth/introducing-wonderstudio-db3d6755ca97#.k9jqztvus&quot;&gt;wonderstudio&lt;/a&gt; с более ранней версией nwb.&lt;br /&gt;
+В то время как конфигурация в nwb несколько ограничена, хотя это работает на 90% из коробки,
+мне нужно сделать хотфикс, чтобы конфигурировать webpack так, как мне хочется.&lt;br /&gt;
+Автор nwb выразил свои намерения в &lt;a href=&quot;https://twitter.com/jbscript/status/704943199425568769&quot;&gt;обеспечении большей гибкости в конфигурации&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Несколько последних написанных мной библиотек также используют nwb (например &lt;a href=&quot;https://github.com/dtinth/redux-send&quot;&gt;redux-send&lt;/a&gt; и &lt;a href=&quot;https://github.com/taskworld/ave&quot;&gt;ave&lt;/a&gt;). 
+Он может генерировать UMD, CommonJS и ES6 версии модулей.&lt;/p&gt;
+
+&lt;p&gt;Как видите, nwb можно использовать также для разработки, тестирования и 
+билдов вэб-приложений и библиотек на чистом JS или React-компонентов.&lt;/p&gt;
+
+&lt;p&gt;На момент написания nwb использует Babel 5, но мне предстоит ещё поискать инструмент, 
+который настолько же хорошо выглядит и протестирован, как nwb. Встроенная поддержка 
+unit-тестирования делает его для меня предпочительней других :D&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Mar 2016 06:13:23 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2016/03/19/quickly-start-a-new-react-application-using-nwb.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2016/03/19/quickly-start-a-new-react-application-using-nwb.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Adverbs</title>
@@ -107,7 +252,7 @@
   &lt;li&gt;&lt;strong&gt;wildly&lt;/strong&gt; - дико&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 13 Mar 2016 11:34:12 +0300</pubDate>
+        <pubDate>Sun, 13 Mar 2016 14:34:12 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2016/03/13/adverbs.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2016/03/13/adverbs.html</guid>
         
@@ -529,45 +674,6 @@ class is to dull?&lt;/p&gt;
         <pubDate>Sun, 29 Mar 2015 17:04:37 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Useful quotations from &quot;Speaking Javascript&quot; book </title>
-        <description>&lt;h3 id=&quot;the-history-of-typeof-null&quot;&gt;The history of typeof null&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The &lt;a href=&quot;http://mxr.mozilla.org/classic/source/js/src/jsapi.h&quot;&gt;first JavaScript engine&lt;/a&gt;
-represented JavaScript values as 32-bit words.
-The lowest 3 bits of such a word were used as a type tag, to indicate whether
-the value was an object, an integer, a double, a string, or a boolean
-(as you can see, even this early engine already stored numbers as integers if possible).&lt;/p&gt;
-
-  &lt;p&gt;The type tag for objects was 000. In order to represent the value null, the engine used the
-machine language NULL pointer, a word where all bits are zero. typeof checked the
-type tag to determine the type of value, which is why it reported null to be an object.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;history-why-are-objects-always-truthy&quot;&gt;History: Why are objects always truthy?&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The conversion to boolean is different for historic reasons. For ECMAScript 1,
-it was decided to not enable objects to configure that conversion (e.g., via a toBoolean() method).
-The rationale was that the boolean operators || and &amp;amp;&amp;amp; preserve the values of their operands.
-Therefore, if you chain those operators, the same value may be checked multiple times for
-truthiness or falsiness. Such checks are cheap for primitives, but would be costly for
-objects if they were able to configure their conversion to boolean. ECMAScript
-1 avoided that cost by making objects always truthy.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 22 Mar 2015 12:46:42 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</guid>
         
         
         <category>jekyll</category>

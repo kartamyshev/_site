@@ -6,9 +6,9 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Mar 2016 06:13:47 +0300</pubDate>
-    <lastBuildDate>Sat, 19 Mar 2016 06:13:47 +0300</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Sun, 04 Sep 2016 14:14:35 +0300</pubDate>
+    <lastBuildDate>Sun, 04 Sep 2016 14:14:35 +0300</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Быстрый старт нового приложения на React с использованием nwb</title>
@@ -51,7 +51,7 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nwb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;js&lt;/span&gt;
 
-&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;react-app&#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'react-app'&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Конфигурация минимальна! Нам только нужно указать, что мы разрабатываем React-приложение 
 и разумные настройки по умолчанию будут созданы.&lt;/p&gt;

@@ -6,8 +6,8 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Sep 2016 14:14:35 +0300</pubDate>
-    <lastBuildDate>Sun, 04 Sep 2016 14:14:35 +0300</lastBuildDate>
+    <pubDate>Sun, 18 Sep 2016 18:45:53 +0300</pubDate>
+    <lastBuildDate>Sun, 18 Sep 2016 18:45:53 +0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -147,114 +147,6 @@ unit-тестирования делает его для меня предпоч
         <pubDate>Sat, 19 Mar 2016 06:13:23 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2016/03/19/quickly-start-a-new-react-application-using-nwb.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2016/03/19/quickly-start-a-new-react-application-using-nwb.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Adverbs</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;accidentally&lt;/strong&gt; - случайно, непредумышленно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;accordingly&lt;/strong&gt; - в соответствии&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;actually&lt;/strong&gt; - фактически, на самом деле&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;acutely&lt;/strong&gt; - остро, резко&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;admittedly&lt;/strong&gt; - по общему признанию, предположительно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;apparently&lt;/strong&gt; - по всей видимости, вероятно, видимо&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;awkwardly&lt;/strong&gt; - неуклюже, затруднительно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;basically&lt;/strong&gt; - в основном&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;completely&lt;/strong&gt; - полностью&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;conversely&lt;/strong&gt; - наоборот, с другой стороны&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;correctly&lt;/strong&gt; - правильно, верно, грамотно&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;currently&lt;/strong&gt; - в настоящее время, теперь&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;differently&lt;/strong&gt; - иначе, различно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;effectively&lt;/strong&gt; - продуктивно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;eventually&lt;/strong&gt; - в итоге&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;exactly&lt;/strong&gt; - именно, как раз&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;extremely&lt;/strong&gt; - чрезвычайно, крайне&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;finally&lt;/strong&gt; - окончательно, в заключение…&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;fairly&lt;/strong&gt; - достаточно, довольно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;fully&lt;/strong&gt; - вполне, полностью&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;functionally&lt;/strong&gt; - функционально&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;fundamentally&lt;/strong&gt; - принципиально, в основе&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;graciously&lt;/strong&gt; - любезно&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;hopefully&lt;/strong&gt; - с надеждой&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;immediately&lt;/strong&gt; - тотчас же, немедленно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;inadvertently&lt;/strong&gt; - ненароком, непреднамеренно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;indiscriminately&lt;/strong&gt; - без разбора&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;inherently&lt;/strong&gt; - по существу, от природы&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;mysteriously&lt;/strong&gt; - таинственно, загадочно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;naturally&lt;/strong&gt; - конечно, естественно&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;necessarily&lt;/strong&gt; - обязательно, непременно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;likely&lt;/strong&gt; - вероятно&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;luckily&lt;/strong&gt; - к счастью&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;particularly&lt;/strong&gt; - особенно, в частности&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;patiently&lt;/strong&gt; - терпеливо&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;perfectly&lt;/strong&gt; - совершенно, вполне&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;possibly&lt;/strong&gt; - по возможности&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;potentially&lt;/strong&gt; - потенциально, возможно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;proactively&lt;/strong&gt; - проактивно&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;probably&lt;/strong&gt; - вероятно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;really&lt;/strong&gt; - действительно, на самом деле&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;relatively&lt;/strong&gt; - относительно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;reliably&lt;/strong&gt; - надёжно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;remotely&lt;/strong&gt; - удалённо&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;roughly&lt;/strong&gt; - приблизительно, грубо&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;significantly&lt;/strong&gt; - существенно, знаменательно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;similarly&lt;/strong&gt; - также, подобным образом&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;simply&lt;/strong&gt; - попросту, просто&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;silently&lt;/strong&gt; - молча, тихо&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;solely&lt;/strong&gt; - исключительно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;sloppily&lt;/strong&gt; - неряшливо&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;specially&lt;/strong&gt; - особенно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;speculatively&lt;/strong&gt; - теоретически, умозрительно&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;statically&lt;/strong&gt; - статически&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;surely&lt;/strong&gt; - конечно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;technically&lt;/strong&gt; - технически&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;trivially&lt;/strong&gt; - банально, обыденно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;ultimately&lt;/strong&gt; - в конечном счёте&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;visually&lt;/strong&gt; - зрительно&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;wildly&lt;/strong&gt; - дико&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 13 Mar 2016 14:34:12 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2016/03/13/adverbs.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2016/03/13/adverbs.html</guid>
         
         
         <category>jekyll</category>
@@ -674,6 +566,45 @@ class is to dull?&lt;/p&gt;
         <pubDate>Sun, 29 Mar 2015 17:04:37 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Useful quotations from &quot;Speaking Javascript&quot; book </title>
+        <description>&lt;h3 id=&quot;the-history-of-typeof-null&quot;&gt;The history of typeof null&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;a href=&quot;http://mxr.mozilla.org/classic/source/js/src/jsapi.h&quot;&gt;first JavaScript engine&lt;/a&gt;
+represented JavaScript values as 32-bit words.
+The lowest 3 bits of such a word were used as a type tag, to indicate whether
+the value was an object, an integer, a double, a string, or a boolean
+(as you can see, even this early engine already stored numbers as integers if possible).&lt;/p&gt;
+
+  &lt;p&gt;The type tag for objects was 000. In order to represent the value null, the engine used the
+machine language NULL pointer, a word where all bits are zero. typeof checked the
+type tag to determine the type of value, which is why it reported null to be an object.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;history-why-are-objects-always-truthy&quot;&gt;History: Why are objects always truthy?&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The conversion to boolean is different for historic reasons. For ECMAScript 1,
+it was decided to not enable objects to configure that conversion (e.g., via a toBoolean() method).
+The rationale was that the boolean operators || and &amp;amp;&amp;amp; preserve the values of their operands.
+Therefore, if you chain those operators, the same value may be checked multiple times for
+truthiness or falsiness. Such checks are cheap for primitives, but would be costly for
+objects if they were able to configure their conversion to boolean. ECMAScript
+1 avoided that cost by making objects always truthy.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2015 12:46:42 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</guid>
         
         
         <category>jekyll</category>

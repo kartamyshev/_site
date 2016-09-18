@@ -196,9 +196,9 @@ pre {
   left: 0;
   right: 0;
   opacity: .15;
-  z-index: -1;
-  background: #fbfbfb url("../assets/common/cover-bg.jpg") no-repeat fixed 0 0;
-  background-size: cover; }
+  background: #fbfbfb url("../assets/common/cover-bg-true-cost.jpg") no-repeat fixed 0 0;
+  background-size: cover;
+  pointer-events: none; }
 
 .private-bitbucket-repositories {
   color: #cccccc;

@@ -6,9 +6,65 @@
 </description>
     <link>http://kartamyshev.github.io/_site/</link>
     <atom:link href="http://kartamyshev.github.io/_site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 23 Oct 2016 18:27:54 +0300</pubDate>
-    <lastBuildDate>Sun, 23 Oct 2016 18:27:54 +0300</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2016 20:25:43 +0300</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 20:25:43 +0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Не заставляйте меня быть вежливым</title>
+        <description>&lt;p&gt;Потому что я не заставляю вас быть вежливыми.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня уважать людей старше меня просто потому, что они старше.
+Уважать людей за возраст - то же самое, что уважать людей за национальность или рост.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня уступать место в транспорте. Скорее всего я не буду садиться вовсе.
+Но, если сяду, то, вероятнее всего, за остановку до конечной. Или потому что мне плохо.
+Может быть у меня болит голова. Да так, что вам никогда и не снилось.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня быть вежливым. Потому что у меня может быть плохое настроение. Или может быть 
+я сегодня провалил собеседование с релокацией в Канаду. Или может быть у меня отец болен раком. Или может быть
+моему другу будут делать операцию и я буду очень сильно переживать, хотя я ничерта не смыслю в медицине.&lt;/p&gt;
+
+&lt;p&gt;Достаточно того, что я молчу.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня быть в хорошем настроении всё время. Потому что я не должен.&lt;/p&gt;
+
+&lt;p&gt;Не говорите мне, что в осени тоже есть что-то прекрасное. Есть. Я и сам знаю.
+Но при ливне на улице я вряд ли пойду на длинный променад.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня врать в корпоративных интересах. Это не идёт на пользу ни одной из сторон.
+Ложь вообще не идёт на пользу. Никогда.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня соответствовать вашим ожиданиям обо мне. Потому что я не соответствую. Потому что я не должен соответствовать.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня вести себя в ресторанах как последний придурок, думая, что официанты - это всего лишь
+обслуживающий персонал и я могу им говорить “эй ты, иди сюда” просто потому, что я не официант и нахожусь по другую сторону.
+Я хочу быть скромным и уважать чужой труд.&lt;/p&gt;
+
+&lt;p&gt;Не требуйте от меня повсеместной скромности. Я вчера посмотрел фильм “Лобстер”.&lt;/p&gt;
+
+&lt;p&gt;Не знаете, как назвать собаку или кота, которого вчера подобрали где-то на автобусной остановке в предсмертной агонии?
+Спросите у меня. У меня хорошая фантазия.&lt;/p&gt;
+
+&lt;p&gt;Не говорите, что мы должны успеть в жизни попробовать как можно больше разных вещей. Не должны. Это тренд.&lt;/p&gt;
+
+&lt;p&gt;На заставляйте меня не бояться. Страх - такое же реальное чувство, как любое другое. Я и сам не хочу его испытывать,
+но иногда приходится. И вы испытываете. Повсеместно. Каждый день.&lt;/p&gt;
+
+&lt;p&gt;Не заставляйте меня верить/не верить в Бога. Потому что я не заставляю вас верить/не верить в Бога.&lt;/p&gt;
+
+&lt;p&gt;Влияйте умно и ненавязчиво. Поступками. Словами в нужный момент. Молчанием в нужный момент. И вам поверят.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Oct 2016 19:31:23 +0300</pubDate>
+        <link>http://kartamyshev.github.io/_site/jekyll/update/2016/10/25/dont.html</link>
+        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2016/10/25/dont.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Быстрый старт нового приложения на React с использованием nwb</title>
@@ -574,45 +630,6 @@ class is to dull?&lt;/p&gt;
         <pubDate>Sun, 29 Mar 2015 17:04:37 +0300</pubDate>
         <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</link>
         <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/29/epic.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Useful quotations from &quot;Speaking Javascript&quot; book </title>
-        <description>&lt;h3 id=&quot;the-history-of-typeof-null&quot;&gt;The history of typeof null&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The &lt;a href=&quot;http://mxr.mozilla.org/classic/source/js/src/jsapi.h&quot;&gt;first JavaScript engine&lt;/a&gt;
-represented JavaScript values as 32-bit words.
-The lowest 3 bits of such a word were used as a type tag, to indicate whether
-the value was an object, an integer, a double, a string, or a boolean
-(as you can see, even this early engine already stored numbers as integers if possible).&lt;/p&gt;
-
-  &lt;p&gt;The type tag for objects was 000. In order to represent the value null, the engine used the
-machine language NULL pointer, a word where all bits are zero. typeof checked the
-type tag to determine the type of value, which is why it reported null to be an object.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;history-why-are-objects-always-truthy&quot;&gt;History: Why are objects always truthy?&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The conversion to boolean is different for historic reasons. For ECMAScript 1,
-it was decided to not enable objects to configure that conversion (e.g., via a toBoolean() method).
-The rationale was that the boolean operators || and &amp;amp;&amp;amp; preserve the values of their operands.
-Therefore, if you chain those operators, the same value may be checked multiple times for
-truthiness or falsiness. Such checks are cheap for primitives, but would be costly for
-objects if they were able to configure their conversion to boolean. ECMAScript
-1 avoided that cost by making objects always truthy.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 22 Mar 2015 12:46:42 +0300</pubDate>
-        <link>http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</link>
-        <guid isPermaLink="true">http://kartamyshev.github.io/_site/jekyll/update/2015/03/22/useful-quotations-from-speaking-javascript-book.html</guid>
         
         
         <category>jekyll</category>
